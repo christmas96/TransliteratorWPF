@@ -1,0 +1,459 @@
+2018-10-26 14:55:26.4683 | TRACE | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 14:55:44.4611 | TRACE | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 14:55:45.0206 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач увійшов до застосуку.
+2018-10-26 14:57:41.5303 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 14:57:41.5303 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 14:57:42.1207 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач увійшов до застосуку.
+2018-10-26 14:57:43.3701 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 14:57:43.3761 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 14:57:43.3890 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-26 14:57:48.9555 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Translit page.
+2018-10-26 14:57:50.7055 | TRACE | Transliteration.ViewModels.TranslitViewModels | User ask DB for own translits.
+2018-10-26 14:57:50.7055 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of Translits property.
+2018-10-26 14:57:50.7225 | TRACE | Transliteration.ViewModels.TranslitViewModels | DB answer successful for asking about current user translits.
+2018-10-26 14:57:55.9128 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-26 14:57:56.1263 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-26 14:57:56.2894 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-26 14:57:56.4158 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-26 14:57:57.2205 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-26 14:57:57.5476 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-26 14:57:57.6423 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-26 14:58:14.2957 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 14:58:14.2957 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 14:58:14.8682 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач увійшов до застосуку.
+2018-10-26 14:58:17.0093 | TRACE | Transliteration.ViewModels.TranslitViewModels | User ask DB for own translits.
+2018-10-26 14:58:17.0172 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of Translits property.
+2018-10-26 14:58:17.0172 | TRACE | Transliteration.ViewModels.TranslitViewModels | DB answer successful for asking about current user translits.
+2018-10-26 14:58:19.8375 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-26 14:58:20.0342 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-26 14:58:20.5417 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-26 14:58:20.6267 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-26 14:58:21.6414 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-26 14:58:21.9874 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-26 14:58:22.0951 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-26 14:58:23.8526 | TRACE | Transliteration.Tools.TranslitDictionary | Entered text start to translit.
+2018-10-26 14:58:23.8526 | TRACE | Transliteration.ViewModels.TranslitViewModels | Entered text finish to translit.
+2018-10-26 14:58:23.8625 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of TranslitText property.
+2018-10-26 14:58:23.9947 | TRACE | Transliteration.ViewModels.TranslitViewModels | User enter text was translited and write to translits history.
+2018-10-26 14:58:26.7300 | TRACE | Transliteration.ViewModels.TranslitViewModels | User ask DB for own translits.
+2018-10-26 14:58:26.7350 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of Translits property.
+2018-10-26 14:58:26.7350 | TRACE | Transliteration.ViewModels.TranslitViewModels | DB answer successful for asking about current user translits.
+2018-10-26 14:58:30.1473 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 14:58:30.1473 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 14:58:30.1643 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-26 14:58:31.6812 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Sign Up page.
+2018-10-26 14:58:34.3130 | TRACE | Transliteration.ViewModels.SignUpViewModel | User back to Sign In page.
+2018-10-26 14:58:36.0646 | TRACE | Transliteration.ViewModels.SignInViewModel | User close app.
+2018-10-26 15:13:04.4433 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 15:13:04
+2018-10-26 15:13:09.0050 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:13:09.0050 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:13:09.4998 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач увійшов до застосуку.
+2018-10-26 15:13:11.1836 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 15:13:11.1876 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 15:13:11.1876 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-26 15:13:13.5121 | TRACE | Transliteration.ViewModels.SignInViewModel | User close app.
+2018-10-26 15:16:55.6971 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 15:16:55
+2018-10-26 15:16:55.8647 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:16:55.8647 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:16:56.3913 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач увійшов до застосуку.
+2018-10-26 15:16:58.9437 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 15:16:58.9437 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 15:16:58.9587 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-26 15:17:01.1184 | TRACE | Transliteration.ViewModels.SignInViewModel | User close app.
+2018-10-26 15:17:08.6780 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 15:17:08
+2018-10-26 15:17:08.8446 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:17:08.8446 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:17:09.4470 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач увійшов до застосуку.
+2018-10-26 15:17:10.8162 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 15:17:10.8162 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 15:17:10.8311 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-26 15:17:11.8546 | TRACE | Transliteration.ViewModels.SignInViewModel | User close app.
+2018-10-26 15:18:53.5675 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 15:18:53
+2018-10-26 15:18:53.7750 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:18:53.7750 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:18:54.2996 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач увійшов до застосуку.
+2018-10-26 15:18:55.4717 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 15:18:55.4717 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 15:18:55.4887 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-26 15:18:56.4135 | TRACE | Transliteration.ViewModels.SignInViewModel | User close app.
+2018-10-26 15:19:00.4128 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 15:19:00
+2018-10-26 15:19:00.5684 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:19:00.5684 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:19:01.1418 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач увійшов до застосуку.
+2018-10-26 15:19:04.5502 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 15:19:04.5502 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 15:19:04.5652 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-26 15:19:05.5581 | TRACE | Transliteration.ViewModels.SignInViewModel | User close app.
+2018-10-26 15:20:02.0540 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 15:20:02
+2018-10-26 15:20:02.2246 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:20:02.2246 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:20:02.7851 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач увійшов до застосуку.
+2018-10-26 15:20:04.7671 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 15:20:04.7671 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 15:20:56.6843 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 15:20:56
+2018-10-26 15:20:56.8518 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:20:56.8518 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:20:57.4103 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач увійшов до застосуку.
+2018-10-26 15:20:58.9663 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 15:20:58.9663 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 15:31:53.3699 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 15:31:53
+2018-10-26 15:31:53.6013 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:31:53.6013 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:31:54.1249 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач увійшов до застосуку.
+2018-10-26 15:31:55.3081 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 15:31:55.3151 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 15:31:55.4886 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-26 15:32:09.0196 | TRACE | Transliteration.ViewModels.SignInViewModel | User close app.
+2018-10-26 15:32:40.2627 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 15:32:40
+2018-10-26 15:32:40.4442 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:32:40.4442 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:32:40.9817 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач відсутній.
+2018-10-26 15:32:48.4311 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Translit page.
+2018-10-26 15:32:50.3799 | TRACE | Transliteration.ViewModels.TranslitViewModels | User ask DB for own translits.
+2018-10-26 15:32:50.3799 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of Translits property.
+2018-10-26 15:32:50.3938 | TRACE | Transliteration.ViewModels.TranslitViewModels | DB answer successful for asking about current user translits.
+2018-10-26 15:32:51.3167 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 15:32:51.3167 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 15:38:38.7774 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 15:38:38
+2018-10-26 15:38:38.9948 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:38:38.9948 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:38:39.5687 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач увійшов до застосуку.
+2018-10-26 15:38:40.7644 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 15:38:40.7644 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 15:39:08.2757 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-26 15:39:29.1685 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Translit page.
+2018-10-26 15:39:43.3705 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 15:39:43.3755 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 15:51:24.5379 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 15:51:24
+2018-10-26 15:51:24.7313 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:51:24.7313 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:51:25.2630 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач відсутній.
+2018-10-26 15:51:31.8410 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Translit page.
+2018-10-26 15:53:06.1362 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 15:53:06
+2018-10-26 15:53:06.3327 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:53:06.3327 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:53:06.8573 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач увійшов до застосуку.
+2018-10-26 15:53:08.5845 | TRACE | Transliteration.ViewModels.TranslitViewModels | User ask DB for own translits.
+2018-10-26 15:53:08.5924 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of Translits property.
+2018-10-26 15:53:08.5924 | TRACE | Transliteration.ViewModels.TranslitViewModels | DB answer successful for asking about current user translits.
+2018-10-26 15:53:09.9606 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 15:53:09.9606 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 15:53:22.3004 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 15:53:22
+2018-10-26 15:53:22.4899 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:53:22.4899 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:53:23.0215 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач увійшов до застосуку.
+2018-10-26 15:53:24.2883 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 15:53:24.2943 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 15:53:46.4759 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 15:53:46
+2018-10-26 15:53:46.6384 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:53:46.6384 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:53:47.1550 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач увійшов до застосуку.
+2018-10-26 15:53:48.0965 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 15:53:48.0965 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 15:53:48.2458 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-26 15:53:50.2825 | TRACE | Transliteration.ViewModels.SignInViewModel | User close app.
+2018-10-26 15:53:53.9337 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 15:53:53
+2018-10-26 15:53:54.1032 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:53:54.1032 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 15:53:54.5979 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач відсутній.
+2018-10-26 16:47:35.8331 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 16:47:35
+2018-10-26 16:47:36.0126 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 16:47:36.0126 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 16:47:36.5263 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач відсутній.
+2018-10-26 16:47:49.1828 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 16:47:49
+2018-10-26 16:47:49.3573 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 16:47:49.3573 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 16:47:49.8570 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач відсутній.
+2018-10-26 16:47:55.5195 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Translit page.
+2018-10-26 16:48:23.8712 | TRACE | Transliteration.ViewModels.TranslitViewModels | User ask DB for own translits.
+2018-10-26 16:48:23.8782 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of Translits property.
+2018-10-26 16:48:23.8782 | TRACE | Transliteration.ViewModels.TranslitViewModels | DB answer successful for asking about current user translits.
+2018-10-26 16:49:22.1699 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 16:49:22
+2018-10-26 16:49:22.3624 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 16:49:22.3624 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 16:51:17.9037 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач увійшов до застосуку.
+2018-10-26 16:51:20.8792 | TRACE | Transliteration.ViewModels.TranslitViewModels | User ask DB for own translits.
+2018-10-26 16:52:46.3753 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 16:52:46
+2018-10-26 16:52:46.5378 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 16:52:46.5378 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 16:53:20.0164 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач увійшов до застосуку.
+2018-10-26 16:53:21.2792 | TRACE | Transliteration.ViewModels.TranslitViewModels | User ask DB for own translits.
+2018-10-26 16:53:21.2792 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of Translits property.
+2018-10-26 16:53:21.2792 | TRACE | Transliteration.ViewModels.TranslitViewModels | DB answer successful for asking about current user translits.
+2018-10-26 16:53:23.6310 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 16:53:23.6310 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 16:53:23.6530 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-26 16:53:28.9581 | TRACE | Transliteration.ViewModels.SignInViewModel | User close app.
+2018-10-26 16:53:38.9852 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 16:53:38
+2018-10-26 16:53:39.1587 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 16:53:39.1587 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 16:53:39.7212 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач відсутній.
+2018-10-26 17:56:06.3521 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 17:56:06
+2018-10-26 17:56:06.5466 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 17:56:06.5466 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 17:56:07.1847 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач відсутній.
+2018-10-26 17:56:19.9494 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Sign Up page.
+2018-10-26 17:56:41.6051 | INFO | Transliteration.ViewModels.SignUpViewModel | User try to Sign up.
+2018-10-26 17:56:41.6051 | INFO | Transliteration.ViewModels.SignUpViewModel | User try to Sign up.
+2018-10-26 17:56:41.6221 | INFO | Transliteration.ViewModels.SignUpViewModel | Try to add new user.
+2018-10-26 17:56:41.6221 | INFO | Transliteration.ViewModels.SignUpViewModel | Try to add new user.
+2018-10-26 17:56:46.0520 | TRACE | Transliteration.ViewModels.TranslitViewModels | User ask DB for own translits.
+2018-10-26 17:56:46.0520 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of Translits property.
+2018-10-26 17:56:46.0640 | TRACE | Transliteration.ViewModels.TranslitViewModels | DB answer successful for asking about current user translits.
+2018-10-26 17:56:49.5669 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 17:56:49.5669 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 17:56:49.5778 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-26 17:57:01.7831 | INFO | Transliteration.ViewModels.SignInViewModel | Such user doesn't exist in DB.
+2018-10-26 17:57:01.7831 | INFO | Transliteration.ViewModels.SignInViewModel | Such user doesn't exist in DB.
+2018-10-26 17:57:30.1256 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 17:57:30
+2018-10-26 17:57:30.3380 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 17:57:30.3380 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 17:57:30.9215 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач відсутній.
+2018-10-26 17:57:36.5729 | TRACE | Transliteration.ViewModels.SignInViewModel | User close app.
+2018-10-26 17:59:15.0445 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 17:59:15
+2018-10-26 17:59:15.2838 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 17:59:15.2838 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 17:59:15.8225 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач відсутній.
+2018-10-26 17:59:34.8757 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 17:59:34
+2018-10-26 17:59:35.1290 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 17:59:35.1290 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 17:59:35.7207 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач відсутній.
+2018-10-26 17:59:37.0844 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Sign Up page.
+2018-10-26 17:59:56.9652 | INFO | Transliteration.ViewModels.SignUpViewModel | User try to Sign up.
+2018-10-26 17:59:56.9652 | INFO | Transliteration.ViewModels.SignUpViewModel | User try to Sign up.
+2018-10-26 17:59:56.9812 | INFO | Transliteration.ViewModels.SignUpViewModel | Try to add new user.
+2018-10-26 17:59:56.9812 | INFO | Transliteration.ViewModels.SignUpViewModel | Try to add new user.
+2018-10-26 17:59:59.6510 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 17:59:59.6560 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 17:59:59.6560 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 17:59:59.6560 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 17:59:59.6849 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-26 18:00:04.3250 | TRACE | Transliteration.ViewModels.SignInViewModel | User enter wrong password.
+2018-10-26 18:00:09.8446 | TRACE | Transliteration.ViewModels.SignInViewModel | User enter wrong password.
+2018-10-26 18:00:15.9969 | TRACE | Transliteration.ViewModels.SignInViewModel | User enter wrong password.
+2018-10-26 18:00:39.6838 | TRACE | Transliteration.ViewModels.SignInViewModel | User enter wrong password.
+2018-10-26 18:00:42.3002 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Sign Up page.
+2018-10-26 18:00:47.5240 | INFO | Transliteration.ViewModels.SignUpViewModel | User try to Sign up.
+2018-10-26 18:00:47.5240 | INFO | Transliteration.ViewModels.SignUpViewModel | User try to Sign up.
+2018-10-26 18:00:47.5349 | WARN | Transliteration.ViewModels.SignUpViewModel | Such user already exist.
+2018-10-26 18:00:47.5349 | WARN | Transliteration.ViewModels.SignUpViewModel | Such user already exist.
+2018-10-26 18:00:47.5349 | WARN | Transliteration.ViewModels.SignUpViewModel | Such user already exist.
+2018-10-26 18:01:11.1949 | INFO | Transliteration.ViewModels.SignUpViewModel | User try to Sign up.
+2018-10-26 18:01:11.1949 | INFO | Transliteration.ViewModels.SignUpViewModel | User try to Sign up.
+2018-10-26 18:01:11.2049 | INFO | Transliteration.ViewModels.SignUpViewModel | Try to add new user.
+2018-10-26 18:01:11.2049 | INFO | Transliteration.ViewModels.SignUpViewModel | Try to add new user.
+2018-10-26 18:01:14.0588 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 18:01:14.0648 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 18:01:14.0648 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:01:14.0648 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:01:14.0898 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-26 18:01:18.8516 | TRACE | Transliteration.ViewModels.SignInViewModel | User enter wrong password.
+2018-10-26 18:01:30.4859 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Sign Up page.
+2018-10-26 18:02:10.2267 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 18:02:10
+2018-10-26 18:02:10.4700 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:02:10.4700 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:02:11.0792 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач відсутній.
+2018-10-26 18:02:12.5640 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Sign Up page.
+2018-10-26 18:02:14.0607 | TRACE | Transliteration.ViewModels.SignUpViewModel | User back to Sign In page.
+2018-10-26 18:02:14.0866 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:02:14.0866 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:02:36.5323 | TRACE | Transliteration.ViewModels.SignInViewModel | User enter wrong password.
+2018-10-26 18:02:56.8918 | TRACE | Transliteration.ViewModels.SignInViewModel | User enter wrong password.
+2018-10-26 18:03:27.3999 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 18:03:27
+2018-10-26 18:03:27.6351 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:03:27.6351 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:03:28.2111 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач відсутній.
+2018-10-26 18:03:54.9466 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Translit page.
+2018-10-26 18:03:57.1466 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 18:03:57.1466 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 18:03:57.1605 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:03:57.1605 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:03:57.1765 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-26 18:04:06.6036 | TRACE | Transliteration.ViewModels.SignInViewModel | User enter wrong password.
+2018-10-26 18:05:10.3253 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 18:05:10
+2018-10-26 18:05:10.5244 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:05:10.5244 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:05:11.0964 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач відсутній.
+2018-10-26 18:06:04.1757 | TRACE | Transliteration.ViewModels.SignInViewModel | User enter wrong password.
+2018-10-26 18:09:37.4763 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 18:09:37
+2018-10-26 18:09:37.6777 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:09:37.6777 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:09:38.2357 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач відсутній.
+2018-10-26 18:09:46.2731 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Translit page.
+2018-10-26 18:09:48.7458 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 18:09:48.7517 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 18:09:48.7797 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-26 18:09:54.5424 | TRACE | Transliteration.ViewModels.SignInViewModel | User enter wrong password.
+2018-10-26 18:10:08.4702 | TRACE | Transliteration.ViewModels.SignInViewModel | User enter wrong password.
+2018-10-26 18:10:17.1883 | TRACE | Transliteration.ViewModels.SignInViewModel | User enter wrong password.
+2018-10-26 18:12:21.6567 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 18:12:21
+2018-10-26 18:12:21.8827 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:12:21.8827 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:12:22.4886 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач відсутній.
+2018-10-26 18:12:29.3817 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Translit page.
+2018-10-26 18:12:30.5056 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 18:12:30.5056 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 18:12:30.5196 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-26 18:12:37.1692 | TRACE | Transliteration.ViewModels.SignInViewModel | User enter wrong password.
+2018-10-26 18:13:03.6301 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 18:13:03
+2018-10-26 18:13:03.8812 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:13:03.8812 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:13:04.5170 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач відсутній.
+2018-10-26 18:13:05.5485 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Sign Up page.
+2018-10-26 18:13:22.0101 | INFO | Transliteration.ViewModels.SignUpViewModel | User try to Sign up.
+2018-10-26 18:13:22.0101 | INFO | Transliteration.ViewModels.SignUpViewModel | User try to Sign up.
+2018-10-26 18:13:22.0261 | INFO | Transliteration.ViewModels.SignUpViewModel | Try to add new user.
+2018-10-26 18:13:22.0261 | INFO | Transliteration.ViewModels.SignUpViewModel | Try to add new user.
+2018-10-26 18:13:25.4734 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 18:13:25.4734 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 18:13:25.4853 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-26 18:13:33.7223 | TRACE | Transliteration.ViewModels.SignInViewModel | User enter wrong password.
+2018-10-26 18:13:39.7960 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 18:13:39
+2018-10-26 18:13:40.0050 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:13:40.0050 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:13:40.5934 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач відсутній.
+2018-10-26 18:13:45.9575 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Translit page.
+2018-10-26 18:13:47.3223 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 18:13:47.3293 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 18:13:47.3293 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-26 18:13:51.4514 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Sign Up page.
+2018-10-26 18:13:54.5532 | TRACE | Transliteration.ViewModels.SignUpViewModel | User close app.
+2018-10-26 18:20:29.9799 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 18:20:29
+2018-10-26 18:20:30.2152 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:20:30.2152 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:20:30.7692 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач відсутній.
+2018-10-26 18:20:40.3471 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Translit page.
+2018-10-26 18:20:42.4410 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 18:20:42.4410 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 18:20:42.4808 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:20:42.4808 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:20:42.4968 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-26 18:24:00.5190 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 18:24:00
+2018-10-26 18:24:00.7432 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:24:00.7432 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:24:01.2783 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач відсутній.
+2018-10-26 18:24:02.2320 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Sign Up page.
+2018-10-26 18:24:19.2666 | INFO | Transliteration.ViewModels.SignUpViewModel | User try to Sign up.
+2018-10-26 18:24:19.2666 | INFO | Transliteration.ViewModels.SignUpViewModel | User try to Sign up.
+2018-10-26 18:24:19.2835 | WARN | Transliteration.ViewModels.SignUpViewModel | Such user already exist.
+2018-10-26 18:24:19.2835 | WARN | Transliteration.ViewModels.SignUpViewModel | Such user already exist.
+2018-10-26 18:24:19.2835 | WARN | Transliteration.ViewModels.SignUpViewModel | Such user already exist.
+2018-10-26 18:24:28.0562 | TRACE | Transliteration.ViewModels.SignUpViewModel | User close app.
+2018-10-26 18:24:33.6502 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 18:24:33
+2018-10-26 18:24:33.9415 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:24:33.9415 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:24:34.5406 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач відсутній.
+2018-10-26 18:24:41.7365 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Sign Up page.
+2018-10-26 18:24:58.7998 | INFO | Transliteration.ViewModels.SignUpViewModel | User try to Sign up.
+2018-10-26 18:24:58.7998 | INFO | Transliteration.ViewModels.SignUpViewModel | User try to Sign up.
+2018-10-26 18:24:58.8168 | INFO | Transliteration.ViewModels.SignUpViewModel | Try to add new user.
+2018-10-26 18:24:58.8168 | INFO | Transliteration.ViewModels.SignUpViewModel | Try to add new user.
+2018-10-26 18:25:01.0564 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 18:25:01.0624 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 18:25:01.0624 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:25:01.0624 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:25:01.0903 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-26 18:25:05.5482 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Translit page.
+2018-10-26 18:25:07.1833 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 18:25:07.1903 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 18:25:07.1903 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:25:07.1903 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:25:07.2142 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-26 18:25:11.4497 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Translit page.
+2018-10-26 18:25:25.4160 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 18:25:25.4209 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 18:25:25.4209 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:25:25.4209 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:25:25.4429 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-26 18:25:26.5995 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Sign Up page.
+2018-10-26 18:26:03.7516 | INFO | Transliteration.ViewModels.SignUpViewModel | User try to Sign up.
+2018-10-26 18:26:03.7516 | INFO | Transliteration.ViewModels.SignUpViewModel | User try to Sign up.
+2018-10-26 18:26:03.7636 | INFO | Transliteration.ViewModels.SignUpViewModel | Try to add new user.
+2018-10-26 18:26:03.7636 | INFO | Transliteration.ViewModels.SignUpViewModel | Try to add new user.
+2018-10-26 18:26:09.1434 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 18:26:09.1434 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 18:26:09.1553 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:26:09.1553 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:26:09.1723 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-26 18:26:17.0570 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Translit page.
+2018-10-26 18:26:23.9590 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 18:26:23.9590 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 18:26:23.9730 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:26:23.9730 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:26:23.9870 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-26 18:26:28.8405 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Translit page.
+2018-10-26 18:26:34.4639 | TRACE | Transliteration.ViewModels.TranslitViewModels | User ask DB for own translits.
+2018-10-26 18:26:34.4719 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of Translits property.
+2018-10-26 18:26:34.4719 | TRACE | Transliteration.ViewModels.TranslitViewModels | DB answer successful for asking about current user translits.
+2018-10-26 18:26:47.4849 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-26 18:26:50.6317 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-26 18:26:58.4626 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-26 18:26:59.9167 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-26 18:27:06.4687 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-26 18:27:07.4516 | TRACE | Transliteration.Tools.TranslitDictionary | Entered text start to translit.
+2018-10-26 18:27:07.4516 | TRACE | Transliteration.ViewModels.TranslitViewModels | Entered text finish to translit.
+2018-10-26 18:27:07.4516 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of TranslitText property.
+2018-10-26 18:27:07.6028 | TRACE | Transliteration.ViewModels.TranslitViewModels | User enter text was translited and write to translits history.
+2018-10-26 18:27:10.2877 | TRACE | Transliteration.ViewModels.TranslitViewModels | User ask DB for own translits.
+2018-10-26 18:27:10.2947 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of Translits property.
+2018-10-26 18:27:10.2947 | TRACE | Transliteration.ViewModels.TranslitViewModels | DB answer successful for asking about current user translits.
+2018-10-26 18:27:33.3944 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 18:27:33.3944 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 18:27:33.4093 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:27:33.4093 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:27:33.4263 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-26 18:27:38.0559 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Translit page.
+2018-10-26 18:27:54.5013 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-26 18:27:55.6605 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-26 18:27:55.9712 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-26 18:27:56.8405 | TRACE | Transliteration.Tools.TranslitDictionary | Entered text start to translit.
+2018-10-26 18:27:56.8455 | TRACE | Transliteration.ViewModels.TranslitViewModels | Entered text finish to translit.
+2018-10-26 18:27:56.8455 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of TranslitText property.
+2018-10-26 18:27:56.9761 | TRACE | Transliteration.ViewModels.TranslitViewModels | User enter text was translited and write to translits history.
+2018-10-26 18:27:58.0396 | TRACE | Transliteration.ViewModels.TranslitViewModels | User ask DB for own translits.
+2018-10-26 18:27:58.0475 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of Translits property.
+2018-10-26 18:27:58.0475 | TRACE | Transliteration.ViewModels.TranslitViewModels | DB answer successful for asking about current user translits.
+2018-10-26 18:28:00.1351 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 18:28:00.1401 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 18:28:00.1401 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:28:00.1401 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:28:00.1620 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-26 18:28:05.8052 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Translit page.
+2018-10-26 18:28:08.2497 | TRACE | Transliteration.ViewModels.TranslitViewModels | User ask DB for own translits.
+2018-10-26 18:28:08.2497 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of Translits property.
+2018-10-26 18:28:08.2647 | TRACE | Transliteration.ViewModels.TranslitViewModels | DB answer successful for asking about current user translits.
+2018-10-26 18:28:09.5044 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 18:28:09.5044 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 18:28:09.5174 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:28:09.5174 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:28:09.5332 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-26 18:28:16.2163 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Translit page.
+2018-10-26 18:28:55.2951 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 18:28:55
+2018-10-26 18:28:55.4377 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач увійшов до застосуку.
+2018-10-26 18:29:10.5255 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 18:29:10
+2018-10-26 18:29:10.7033 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач увійшов до застосуку.
+2018-10-26 18:29:12.7367 | TRACE | Transliteration.ViewModels.TranslitViewModels | User ask DB for own translits.
+2018-10-26 18:30:19.2908 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 18:30:19
+2018-10-26 18:30:19.4364 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач увійшов до застосуку.
+2018-10-26 18:30:20.6321 | TRACE | Transliteration.ViewModels.TranslitViewModels | User ask DB for own translits.
+2018-10-26 18:31:42.1420 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 26.10.2018 18:31:42
+2018-10-26 18:31:42.3058 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:31:42.3058 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:31:45.8460 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач увійшов до застосуку.
+2018-10-26 18:31:47.1343 | TRACE | Transliteration.ViewModels.TranslitViewModels | User ask DB for own translits.
+2018-10-26 18:31:47.1423 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of Translits property.
+2018-10-26 18:31:47.1423 | TRACE | Transliteration.ViewModels.TranslitViewModels | DB answer successful for asking about current user translits.
+2018-10-26 18:31:51.5434 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 18:31:51.5484 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 18:31:51.5733 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:31:51.5733 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:31:51.5893 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-26 18:31:56.5067 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Translit page.
+2018-10-26 18:31:57.5904 | TRACE | Transliteration.ViewModels.TranslitViewModels | User ask DB for own translits.
+2018-10-26 18:31:57.5984 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of Translits property.
+2018-10-26 18:31:57.5984 | TRACE | Transliteration.ViewModels.TranslitViewModels | DB answer successful for asking about current user translits.
+2018-10-26 18:31:59.5099 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-26 18:31:59.5159 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-26 18:31:59.5159 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:31:59.5159 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-26 18:31:59.5349 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
