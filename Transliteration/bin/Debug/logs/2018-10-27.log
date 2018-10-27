@@ -338,3 +338,98 @@
 2018-10-27 21:26:31.9075 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of TranslitText property.
 2018-10-27 21:26:32.0412 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of Translits property.
 2018-10-27 21:26:32.0532 | TRACE | Transliteration.ViewModels.TranslitViewModels | User enter text was translited and write to translits history.
+2018-10-27 21:51:41.5254 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 27.10.2018 21:51:41
+2018-10-27 21:51:41.7383 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-27 21:51:41.7383 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-27 21:51:43.5153 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач увійшов до застосуку.
+2018-10-27 21:51:45.4069 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-27 21:51:45.4069 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-27 21:51:45.4069 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-27 21:51:45.4069 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-27 21:51:45.4069 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-27 21:51:49.1529 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Translit page.
+2018-10-27 21:51:50.0216 | TRACE | Transliteration.ViewModels.TranslitViewModels | User ask DB for own translits.
+2018-10-27 21:51:50.0216 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of Translits property.
+2018-10-27 21:51:50.0216 | TRACE | Transliteration.ViewModels.TranslitViewModels | DB answer successful for asking about current user translits.
+2018-10-27 21:51:55.9182 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-27 21:51:55.9182 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-27 21:51:55.9182 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-27 21:51:55.9182 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-27 21:51:55.9282 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-27 21:51:59.2072 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Translit page.
+2018-10-27 21:51:59.7747 | TRACE | Transliteration.ViewModels.TranslitViewModels | User ask DB for own translits.
+2018-10-27 21:51:59.7747 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of Translits property.
+2018-10-27 21:51:59.7747 | TRACE | Transliteration.ViewModels.TranslitViewModels | DB answer successful for asking about current user translits.
+2018-10-27 21:52:00.9657 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-27 21:52:00.9657 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-27 21:52:00.9677 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-27 21:52:00.9677 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-27 21:52:00.9677 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-27 21:52:04.5826 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Translit page.
+2018-10-27 21:52:05.4386 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:05.6956 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:06.4139 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:06.7584 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:07.0304 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:07.2067 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:07.3822 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:07.8626 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:07.9420 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:08.1339 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:08.2139 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:08.3269 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:08.3661 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:08.5027 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:08.5577 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:08.6461 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:08.7660 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:12.4542 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:12.8057 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:13.5099 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:14.5425 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:15.3420 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:15.5659 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:15.7419 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:15.9016 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:15.9587 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:16.0377 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:16.1027 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:16.1905 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:16.2785 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:16.4066 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:16.4947 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:16.5908 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:16.6622 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:16.7836 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:16.8950 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:16.9910 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:17.2867 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:17.3737 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:17.5819 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:17.9744 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:18.1426 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:18.2947 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of EnterText property.
+2018-10-27 21:52:18.6654 | TRACE | Transliteration.Tools.TranslitDictionary | Entered text start to translit.
+2018-10-27 21:52:18.6654 | TRACE | Transliteration.ViewModels.TranslitViewModels | Entered text finish to translit.
+2018-10-27 21:52:18.6654 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of TranslitText property.
+2018-10-27 21:52:18.8253 | TRACE | Transliteration.ViewModels.TranslitViewModels | Change value of Translits property.
+2018-10-27 21:52:18.8253 | TRACE | Transliteration.ViewModels.TranslitViewModels | User enter text was translited and write to translits history.
+2018-10-27 21:52:33.1267 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-27 21:52:33.1267 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-27 21:52:33.1267 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-27 21:52:33.1267 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-27 21:52:33.1267 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.
+2018-10-27 21:57:46.1343 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Sign Up page.
+2018-10-27 21:57:47.6871 | TRACE | Transliteration.ViewModels.SignUpViewModel | User close app.
+2018-10-27 21:58:32.4988 | TRACE | Transliteration.Managers.LoggerClass | App srtart: 27.10.2018 21:58:32
+2018-10-27 21:58:32.7067 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-27 21:58:32.7067 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-27 21:58:34.4500 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-27 21:58:34.4500 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-27 21:58:34.4560 | TRACE | Transliteration.MainWindow | Поепередньо залогінений користувач відсутній.
+2018-10-27 21:59:25.7858 | TRACE | Transliteration.ViewModels.SignInViewModel | User go to Translit page.
+2018-10-27 22:01:34.5426 | TRACE | Transliteration.ViewModels.TranslitViewModels | User want to log out.
+2018-10-27 22:01:34.5426 | TRACE | Transliteration.ViewModels.TranslitViewModels | Clear current user for auto login.
+2018-10-27 22:01:34.5466 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-27 22:01:34.5466 | INFO | Transliteration.Managers.DBManager | Try to connect to DB.
+2018-10-27 22:01:34.5466 | TRACE | Transliteration.ViewModels.TranslitViewModels | Now another user can Sign In.

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\C#\Transliteration\Transliteration\obj\Debug\
+E:\homework\transliteration1\TransliteratorWPF\Transliteration\obj\Debug\
 Transliteration
 none
 false
 DEBUG;TRACE
-D:\C#\Transliteration\Transliteration\App.xaml
+E:\homework\transliteration1\TransliteratorWPF\Transliteration\App.xaml
 4-143484577
 1-2138471434
-30-2144125181
-83-1927702661
+302057268040
+831792010058
 MainWindow.xaml;Views\SignInView.xaml;Views\SignUpView.xaml;Views\TranslitView.xaml;
 
-False
+True
 
