@@ -24,11 +24,7 @@ namespace Transliteration.Tools
         private static string Front(string text, TransliterationType type)
         {
             log.Trace("Entered text start to translit.");
-            string output = text;
-
-            output = Regex.Replace(output, @"\s|\.|\(", " ");
-            output = Regex.Replace(output, @"\s+", " ");
-            output = Regex.Replace(output, @"[^\s\w\d-]", "");
+            string output = text;            
             output = output.Trim();
 
             Dictionary<string, string> tdict = GetDictionaryByType(type);
@@ -48,11 +44,12 @@ namespace Transliteration.Tools
 
         static TranslitDictionary()
         {
+            iso.Add("Ї", "Yi");
             iso.Add("Є", "Ye");
             iso.Add("І", "I");
             iso.Add("Ѓ", "G");
             iso.Add("і", "i");
-            iso.Add("№", "#");
+            iso.Add("№", "№");
             iso.Add("є", "ye");
             iso.Add("ѓ", "g");
             iso.Add("А", "A");
@@ -84,6 +81,7 @@ namespace Transliteration.Tools
             iso.Add("Ь", "");
             iso.Add("Ю", "Yu");
             iso.Add("Я", "Ya");
+            iso.Add("ї","yi");
             iso.Add("а", "a");
             iso.Add("б", "b");
             iso.Add("в", "v");
@@ -116,7 +114,8 @@ namespace Transliteration.Tools
             iso.Add("«", "");
             iso.Add("»", "");
             iso.Add("—", "-");
-            iso.Add(" ", "-");
+            iso.Add(" ", " ");
+            iso.Add(".", ".");
         }
     }
 }

@@ -78,6 +78,7 @@ namespace Transliteration.ViewModels
             TranslitText = await TranslitQuery(EnterText);
             var Translit = new Translit(EnterText, TranslitText);
             DBManager.AddTranslit(Translit);
+            Translits = DBManager.GetTranslitsByUserId(StationManager.CurrentUser.Id);
             log.Trace("User enter text was translited and write to translits history.");
         }
 
