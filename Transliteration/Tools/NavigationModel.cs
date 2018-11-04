@@ -4,14 +4,14 @@ using Transliteration.Views;
 
 namespace  Transliteration.Tools
 {
-    public enum ModesEnum
+    internal enum ModesEnum
     {
         SignIn,
         SingUp,
         Translit
     }
 
-    public class NavigationModel
+    internal class NavigationModel
     {
         private IContentWindow _content;
         private SignInView _signInView;
@@ -19,18 +19,18 @@ namespace  Transliteration.Tools
         private TranslitView _mainView;
         private Page _currentPage;
 
-        public Page CurrentPage
+        internal Page CurrentPage
         {
             get => _currentPage;
             set => _currentPage = value;
         }
 
-        public NavigationModel(IContentWindow Content)
+        internal NavigationModel(IContentWindow Content)
         {
             _content = Content;
         }
 
-        public void Navigate(ModesEnum mode)
+        internal void Navigate(ModesEnum mode)
         {
             switch (mode)
             {

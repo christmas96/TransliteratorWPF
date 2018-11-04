@@ -11,7 +11,7 @@ namespace Transliteration.Views
     {
         private DBManager _manager;
 
-        public SignInView()
+        internal SignInView()
         {
             InitializeComponent();
             var signInViewModel = new SignInViewModel();

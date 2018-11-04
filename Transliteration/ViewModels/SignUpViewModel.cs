@@ -13,10 +13,10 @@ using static Transliteration.Properties.Resources;
 
 namespace Transliteration.ViewModels
 {
-    public class SignUpViewModel
+    internal class SignUpViewModel
     {
 
-        public static Logger log = LogManager.GetCurrentClassLogger();
+        internal static Logger Log = LogManager.GetCurrentClassLogger();
 
         private string _login;
         private string _password;
@@ -95,13 +95,13 @@ namespace Transliteration.ViewModels
             }
         }
 
-        public SignUpViewModel()
+        internal SignUpViewModel()
         {
         }
 
         private void SignUpExecute(object obj)
         {
-            log.Info("User try to Sign up.");
+            Log.Info("User try to Sign up.");
             var passwordContainer = obj as PasswordBox;
             if (passwordContainer != null)
             {
@@ -110,7 +110,7 @@ namespace Transliteration.ViewModels
             }
             else
             {
-                log.Warn("User not enter password.");
+                Log.Warn("User not enter password.");
                 MessageBox.Show(EmptyPassword);
                 return;
             }
@@ -118,26 +118,26 @@ namespace Transliteration.ViewModels
             {
                 if (!EmailIsValid(_email))
                 {
-                    log.Warn("User enter invalid email.");
+                    Log.Warn("User enter invalid email.");
                     MessageBox.Show(String.Format(SignUp_EmailIsNotValid, _email));
                     return;
                 }
                 if (DBManager.UserExists(_login))
                 {
-                    log.Warn("Such user already exist.");
+                    Log.Warn("Such user already exist.");
                     MessageBox.Show(String.Format(SignUp_UserAlreadyExists, _login));
                     return;
                 }
             }
             catch (Exception ex)
             {
-                log.Error("Problem with validating data: " + ex.ToString());
+                Log.Error("Problem with validating data: " + ex.ToString());
                 MessageBox.Show(String.Format(SignUp_FailedToValidateData, Environment.NewLine, ex.Message));
                 return;
             }
             try
             {
-                log.Info("Try to add new user.");
+                Log.Info("Try to add new user.");
                 var user = new User(_firstName, _lastName, _email, _login, _password);                
                 DBManager.AddUser(user);                
                 StationManager.CurrentUser = user;
@@ -145,7 +145,7 @@ namespace Transliteration.ViewModels
             }
             catch (Exception ex)
             {
-                log.Error("Promlem with creating new user: " + ex.ToString());
+                Log.Error("Promlem with creating new user: " + ex.ToString());
                 MessageBox.Show(String.Format(SignUp_FailedToCreateUser, Environment.NewLine,
                     ex.Message));
                 return;
@@ -199,7 +199,7 @@ namespace Transliteration.ViewModels
             }
             catch
             {
-                // Fallback on error
+                Log.Trace("Error while create RegEx.");
             }
             return new Regex(pattern, options);
         }
@@ -214,19 +214,19 @@ namespace Transliteration.ViewModels
 
         private void SignInExecute(object obj)
         {
-            log.Trace("User back to Sign In page.");
+            Log.Trace("User back to Sign In page.");
             NavigationManager.Instance.Navigate(ModesEnum.SignIn);
         }
 
         private void CloseExecute(object obj)
         {
-            log.Trace("User close app.");
+            Log.Trace("User close app.");
             StationManager.CloseApp();
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
         [NotifyPropertyChangedInvocator]
-        public virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        internal virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }

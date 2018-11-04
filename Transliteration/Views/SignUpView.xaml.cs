@@ -8,7 +8,7 @@ namespace Transliteration.Views
     /// </summary>
     public partial class SignUpView : IHaveSignUpPass
     {
-        public SignUpView()
+        internal SignUpView()
         {
             InitializeComponent();
             var signUpViewModel = new SignUpViewModel();

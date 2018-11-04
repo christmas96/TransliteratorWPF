@@ -10,7 +10,7 @@ namespace Transliteration
     {
         protected override void OnStartup(StartupEventArgs e)
         {
-            LoggerClass log = new LoggerClass();
+            LoggerClass Log = new LoggerClass();
         }
     }
 }

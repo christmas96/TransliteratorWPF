@@ -1,5 +1,4 @@
-﻿
-using NLog;
+﻿using NLog;
 using System;
 using System.Windows;
 
@@ -7,20 +6,20 @@ namespace Transliteration.Managers
 {
     public class LoggerClass
     {
-        public static Logger log;
+        internal static Logger Log;
 
-        public LoggerClass()
+        internal LoggerClass()
         {
             try
             {
-                log = LogManager.GetCurrentClassLogger();
-                log.Trace("App srtart: {0}", DateTime.Now.ToString());
+                Log = LogManager.GetCurrentClassLogger();
+                Log.Trace("App srtart: {0}", DateTime.Now.ToString());
                 NLog.Targets.FileTarget tar = (NLog.Targets.FileTarget)LogManager.Configuration.FindTargetByName("file");
                 tar.DeleteOldFileOnStartup = false;
             }
             catch (Exception e)
             {
-                MessageBox.Show("Ошибка работы с логом!" + e.Message);
+                MessageBox.Show("Error log working!" + e.Message);
             }
         }
     }

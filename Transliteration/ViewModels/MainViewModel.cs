@@ -1,6 +1,6 @@
 ﻿using GalaSoft.MvvmLight;
 
-namespace Chargily.ViewModel
+namespace Transliteration.ViewModel
 {
     public class MainViewModel : ViewModelBase
     {

@@ -7,49 +7,51 @@ using Transliteration.Models;
 
 namespace Transliteration.Managers
 {
-    public static class StationManager
+    internal static class StationManager
     {
         public static User CurrentUser { get; set; }
 
-        private static string _path = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + @"\User.bin";
+        private static readonly string PATH = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+
+        private static readonly string USER_PATH = Path.Combine(PATH, "User.bin");
 
         public static void Initialize(){}
 
-        public static void CloseApp()
+        internal static void CloseApp()
         {
             DBManager.DisposeDB();
             MessageBox.Show("ShutDown");
             Environment.Exit(1);
         }
 
-        public static void AddCurrentUser()
+        internal static void AddCurrentUser()
         {
             IFormatter formatter = new BinaryFormatter();
-            Stream stream = new FileStream(_path, FileMode.Create, FileAccess.Write, FileShare.None);
+            Stream stream = new FileStream(USER_PATH, FileMode.Create, FileAccess.Write, FileShare.None);
             formatter.Serialize(stream, CurrentUser);
             stream.Close();
         }
 
-        public static void GetCurrentUser()
+        internal static void GetCurrentUser()
         {
             IFormatter formatter2 = new BinaryFormatter();
-            Stream stream = new FileStream(_path, FileMode.Open, FileAccess.Read, FileShare.Read);
+            Stream stream = new FileStream(USER_PATH, FileMode.Open, FileAccess.Read, FileShare.Read);
             CurrentUser = (User)formatter2.Deserialize(stream);
             stream.Close();
         }
 
-        public static void RemoveCurrentUser()
+        internal static void RemoveCurrentUser()
         {
-            if (File.Exists(_path))
+            if (File.Exists(USER_PATH))
             {
-                File.Delete(_path);
+                File.Delete(USER_PATH);
             }
             CurrentUser = null;
         }
 
-        public static bool CheckCurrentUser()
+        internal static bool CheckCurrentUser()
         {
-            if (File.Exists(_path))
+            if (File.Exists(USER_PATH))
             {
                 return true;
             }

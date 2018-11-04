@@ -8,14 +8,13 @@ using Transliteration.Models;
 using Transliteration.Tools;
 using static Transliteration.Properties.Resources;
 using System.Windows.Controls;
-using Transliteration.Properties;
 using NLog;
 
 namespace Transliteration.ViewModels
 {
-    public class SignInViewModel : INotifyPropertyChanged
+    internal class SignInViewModel : INotifyPropertyChanged
     {
-        public static Logger log = LogManager.GetCurrentClassLogger();
+        internal static Logger Log = LogManager.GetCurrentClassLogger();
 
         public string LoginText { get => "Login: "; }
         public string PasswordText { get => "Password: "; }
@@ -49,15 +48,15 @@ namespace Transliteration.ViewModels
         {
             get { return _signUpCommand ?? (_signUpCommand = new RelayCommand<object>(SignUpExecute)); }
         }
-        
 
-        public SignInViewModel()
+
+        internal SignInViewModel()
         {
         }
 
         private void SignUpExecute(object obj)
         {
-            log.Trace("User go to Sign Up page.");
+            Log.Trace("User go to Sign Up page.");
             NavigationManager.Instance.Navigate(ModesEnum.SingUp);
         }
 
@@ -71,7 +70,7 @@ namespace Transliteration.ViewModels
             }
             else
             {
-                log.Error("User not enter password.");
+                Log.Error("User not enter password.");
                 MessageBox.Show(EmptyPassword);
                 return;
             }
@@ -83,14 +82,14 @@ namespace Transliteration.ViewModels
             }
             catch (Exception ex)
             {
-                log.Error("Problem to get user: " + ex.ToString());
+                Log.Error("Problem to get user: " + ex.ToString());
                 MessageBox.Show(String.Format(SignIn_FailedToGetUser, Environment.NewLine,
                     ex.Message));
                 return;
             }
             if (user == null)
             {
-                log.Info("Such user doesn't exist in DB.");
+                Log.Info("Such user doesn't exist in DB.");
                 MessageBox.Show(String.Format(SignIn_UserDoesntExist, _login));
                 return;
             }
@@ -98,21 +97,21 @@ namespace Transliteration.ViewModels
             {
                 if (user.CheckPassword(user.Password, _password) == false)
                 {
-                    log.Trace("User enter wrong password.");
+                    Log.Trace("User enter wrong password.");
                     MessageBox.Show(SignIn_WrongPassword);
                     return;
                 }
             }
             catch (Exception ex)
             {
-                log.Trace("Problem with password: " + ex.ToString());
+                Log.Trace("Problem with password: " + ex.ToString());
                 MessageBox.Show(String.Format(SignIn_FailedToValidatePassword, Environment.NewLine,
                      ex.Message));
                 return;
             }
             StationManager.CurrentUser = user;
             StationManager.AddCurrentUser();
-            log.Trace("User go to Translit page.");
+            Log.Trace("User go to Translit page.");
             NavigationManager.Instance.Navigate(ModesEnum.Translit);
         }
 
@@ -123,13 +122,13 @@ namespace Transliteration.ViewModels
 
         private void CloseExecute(object obj)
         {
-            log.Trace("User close app.");
+            Log.Trace("User close app.");
             StationManager.CloseApp();
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
         [NotifyPropertyChangedInvocator]
-        public virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        internal virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }

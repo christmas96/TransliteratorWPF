@@ -1,11 +1,6 @@
 ﻿using NLog;
-using System;
-using System.IO;
-using System.Runtime.Serialization;
-using System.Runtime.Serialization.Formatters.Binary;
 using System.Windows.Controls;
 using Transliteration.Managers;
-using Transliteration.Models;
 using Transliteration.Tools;
 
 namespace Transliteration

@@ -11,15 +11,16 @@ using NLog;
 
 namespace Transliteration.ViewModels
 {
-    public class TranslitViewModels : INotifyPropertyChanged
+    internal class TranslitViewModels : INotifyPropertyChanged
     {
         private ICommand _translitCommand;
         private ICommand _historyCommand;
         private ICommand _logOutCommand;
+        private ICommand _closeCommand;
         private string _enterText = string.Empty;
         private string _translitText = string.Empty;
         private List<Translit> _translits;
-        public static Logger log = LogManager.GetCurrentClassLogger();
+        private static Logger Log = LogManager.GetCurrentClassLogger();
 
         public string TranslitLabelText { get => "Your Text"; }
         public string ResultLabelText { get => "Result Text"; }
@@ -69,7 +70,15 @@ namespace Transliteration.ViewModels
             get { return _logOutCommand ?? (_logOutCommand = new RelayCommand<object>(LogOutExecute)); }
         }
 
-        public TranslitViewModels()
+        public ICommand CloseCommand
+        {
+            get
+            {
+                return _closeCommand ?? (_closeCommand = new RelayCommand<object>(CloseExecute));
+            }
+        }
+
+        internal TranslitViewModels()
         {
         }
 
@@ -78,7 +87,8 @@ namespace Transliteration.ViewModels
             TranslitText = await TranslitQuery(EnterText);
             var Translit = new Translit(EnterText, TranslitText);
             DBManager.AddTranslit(Translit);
-            log.Trace("User enter text was translited and write to translits history.");
+            Translits = DBManager.GetTranslitsByUserId(StationManager.CurrentUser.Id);
+            Log.Trace("User enter text was translited and write to translits history.");
         }
 
         private async Task<string> TranslitQuery(string text)
@@ -87,32 +97,38 @@ namespace Transliteration.ViewModels
             await Task.Run(() =>
             {
                 result = TranslitDictionary.Front(text);
-                log.Trace("Entered text finish to translit.");
+                Log.Trace("Entered text finish to translit.");
             });
             return result;
         }
 
         private void HistoryExecute(object obj)
         {
-            log.Trace("User ask DB for own translits.");
+            Log.Trace("User ask DB for own translits.");
             Translits = DBManager.GetTranslitsByUserId(StationManager.CurrentUser.Id);
-            log.Trace("DB answer successful for asking about current user translits.");
+            Log.Trace("DB answer successful for asking about current user translits.");
         }
 
         private void LogOutExecute(object obj)
         {
-            log.Trace("User want to log out.");
-            log.Trace("Clear current user for auto login.");
+            Log.Trace("User want to log out.");
+            Log.Trace("Clear current user for auto login.");
             StationManager.RemoveCurrentUser();
             NavigationManager.Instance.Navigate(ModesEnum.SignIn);
-            log.Trace("Now another user can Sign In.");
+            Log.Trace("Now another user can Sign In.");
+        }
+
+        private void CloseExecute(object obj)
+        {
+            Log.Trace("User close app.");
+            StationManager.CloseApp();
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
         [NotifyPropertyChangedInvocator]
-        public virtual void OnPropertyChanged([CallerMemberName]string propertyName = null)
+        internal virtual void OnPropertyChanged([CallerMemberName]string propertyName = null)
         {
-            log.Trace("Change value of {0} property.", propertyName);
+            Log.Trace("Change value of {0} property.", propertyName);
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
