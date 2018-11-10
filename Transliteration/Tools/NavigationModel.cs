@@ -17,13 +17,6 @@ namespace  Transliteration.Tools
         private SignInView _signInView;
         private SignUpView _signUpView;
         private TranslitView _mainView;
-        private Page _currentPage;
-
-        internal Page CurrentPage
-        {
-            get => _currentPage;
-            set => _currentPage = value;
-        }
 
         internal NavigationModel(IContentWindow Content)
         {
@@ -35,16 +28,13 @@ namespace  Transliteration.Tools
             switch (mode)
             {
                 case ModesEnum.SignIn:
-                    _currentPage = _signInView = new SignInView();
-                    _content.ContentControl.Content = _currentPage;
+                    _content.ContentControl.Content = _signInView = new SignInView();
                     break;
                 case ModesEnum.SingUp:
-                    _currentPage = _signUpView = new SignUpView();
-                    _content.ContentControl.Content = _currentPage;
+                    _content.ContentControl.Content = _signUpView = new SignUpView();
                     break;
                 case ModesEnum.Translit:
-                    _currentPage = _mainView = new TranslitView();
-                    _content.ContentControl.Content = _currentPage;
+                    _content.ContentControl.Content = _mainView = new TranslitView();
                     break;
                 default:
                     throw new ArgumentOutOfRangeException(nameof(mode), mode, null);

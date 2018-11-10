@@ -91,3 +91,6 @@ D:\C#\TransiterationGit\Transliteration\obj\Debug\Transliteration.csproj.CopyCom
 D:\C#\TransiterationGit\Transliteration\obj\Debug\Transliteration.exe
 D:\C#\TransiterationGit\Transliteration\obj\Debug\Transliteration.pdb
 D:\C#\TransiterationGit\Transliteration\bin\Debug\TranslateDB.db
+D:\C#\TransiterationGit\Transliteration\obj\Debug\Transliteration.csprojAssemblyReference.cache
+D:\C#\TransiterationGit\Transliteration\bin\Debug\FontAwesome.WPF.dll
+D:\C#\TransiterationGit\Transliteration\bin\Debug\FontAwesome.WPF.xml

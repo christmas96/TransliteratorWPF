@@ -9,6 +9,8 @@ using Transliteration.Tools;
 using static Transliteration.Properties.Resources;
 using System.Windows.Controls;
 using NLog;
+using System.Threading.Tasks;
+using System.Threading;
 
 namespace Transliteration.ViewModels
 {
@@ -60,8 +62,9 @@ namespace Transliteration.ViewModels
             NavigationManager.Instance.Navigate(ModesEnum.SingUp);
         }
 
-        private void SignInExecute(object obj)
+        private async void SignInExecute(object obj)
         {
+            LoaderManager.Instance.ShowLoader();
             var passwordContainer = obj as PasswordBox;
             if (passwordContainer != null)
             {
@@ -75,44 +78,54 @@ namespace Transliteration.ViewModels
                 return;
             }
 
-            User user;
-            try
+            var result = await Task.Run(() =>
             {
-                user = DBManager.GetUserByLogin(_login);
-            }
-            catch (Exception ex)
-            {
-                Log.Error("Problem to get user: " + ex.ToString());
-                MessageBox.Show(String.Format(SignIn_FailedToGetUser, Environment.NewLine,
-                    ex.Message));
-                return;
-            }
-            if (user == null)
-            {
-                Log.Info("Such user doesn't exist in DB.");
-                MessageBox.Show(String.Format(SignIn_UserDoesntExist, _login));
-                return;
-            }
-            try
-            {
-                if (user.CheckPassword(user.Password, _password) == false)
+                Thread.Sleep(1000);
+                User user;
+                try
                 {
-                    Log.Trace("User enter wrong password.");
-                    MessageBox.Show(SignIn_WrongPassword);
-                    return;
+                    user = DBManager.GetUserByLogin(_login);
                 }
+                catch (Exception ex)
+                {
+                    Log.Error("Problem to get user: " + ex.ToString());
+                    MessageBox.Show(String.Format(SignIn_FailedToGetUser, Environment.NewLine,
+                        ex.Message));
+                    return false;
+                }
+                if (user == null)
+                {
+                    Log.Info("Such user doesn't exist in DB.");
+                    MessageBox.Show(String.Format(SignIn_UserDoesntExist, _login));
+                    return false;
+                }
+                try
+                {
+                    if (user.CheckPassword(user.Password, _password) == false)
+                    {
+                        Log.Trace("User enter wrong password.");
+                        MessageBox.Show(SignIn_WrongPassword);
+                        return false;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Log.Trace("Problem with password: " + ex.ToString());
+                    MessageBox.Show(String.Format(SignIn_FailedToValidatePassword, Environment.NewLine,
+                         ex.Message));
+                    return false;
+                }
+                StationManager.CurrentUser = user;
+                StationManager.AddCurrentUser();
+                return true;
             }
-            catch (Exception ex)
-            {
-                Log.Trace("Problem with password: " + ex.ToString());
-                MessageBox.Show(String.Format(SignIn_FailedToValidatePassword, Environment.NewLine,
-                     ex.Message));
-                return;
+           );            
+            LoaderManager.Instance.HideLoader();
+            if (result)
+            {              
+                Log.Trace("User go to Translit page.");
+                NavigationManager.Instance.Navigate(ModesEnum.Translit);
             }
-            StationManager.CurrentUser = user;
-            StationManager.AddCurrentUser();
-            Log.Trace("User go to Translit page.");
-            NavigationManager.Instance.Navigate(ModesEnum.Translit);
         }
 
         private bool SignInCanExecute(object obj)

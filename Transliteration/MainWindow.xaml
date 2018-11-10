@@ -3,13 +3,17 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Transliteration"
+        xmlns:fa="http://schemas.fontawesome.io/icons/"
         mc:Ignorable="d"
         Title="MainWindow" 
         Height="Auto" 
-        Width="800"
-        ResizeMode="NoResize">
-    <Grid>
-        
-    </Grid>
+        Width="800"        
+        MinWidth="500"
+        MinHeight="200">
+    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+        <Grid>
+            <ContentControl Name="_content" IsEnabled="{Binding Path=IsEnabled, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+            <fa:ImageAwesome Name="ImageAwesome"  Icon="Gear" SpinDuration="2" Width="50" Height="50" HorizontalAlignment="Center" VerticalAlignment="Center" Spin="True" Visibility="{Binding Path=LoaderVisibility, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"/>
+        </Grid>
+    </ScrollViewer>    
 </Window>

@@ -8,6 +8,9 @@ using Transliteration.Models;
 using static Transliteration.Properties.Resources;
 using System.Collections.Generic;
 using NLog;
+using System;
+using System.Windows;
+using System.Threading;
 
 namespace Transliteration.ViewModels
 {
@@ -84,6 +87,11 @@ namespace Transliteration.ViewModels
 
         private async void TranslitExecute(object obj)
         {
+            if(EnterText == string.Empty)
+            {
+                MessageBox.Show("Empty text! Enter some text");
+                return;
+            }
             TranslitText = await TranslitQuery(EnterText);
             var Translit = new Translit(EnterText, TranslitText);
             DBManager.AddTranslit(Translit);
@@ -93,29 +101,72 @@ namespace Transliteration.ViewModels
 
         private async Task<string> TranslitQuery(string text)
         {
-            string result = string.Empty;
-            await Task.Run(() =>
+            LoaderManager.Instance.ShowLoader();
+            string translit = string.Empty;
+            var result = await Task.Run(() =>
             {
-                result = TranslitDictionary.Front(text);
-                Log.Trace("Entered text finish to translit.");
+                Thread.Sleep(1000);
+                try
+                {
+                    translit = TranslitDictionary.Front(text);
+                    Log.Trace("Entered text finish to translit.");
+                }
+                catch(Exception e)
+                {
+                    Log.Error("Error while translit: " + e.ToString());
+                    return false;
+                }
+                return true;
             });
-            return result;
+            LoaderManager.Instance.HideLoader();
+            if (result) return translit;
+            return string.Empty;
         }
 
-        private void HistoryExecute(object obj)
+        private async void HistoryExecute(object obj)
         {
-            Log.Trace("User ask DB for own translits.");
-            Translits = DBManager.GetTranslitsByUserId(StationManager.CurrentUser.Id);
-            Log.Trace("DB answer successful for asking about current user translits.");
+            LoaderManager.Instance.ShowLoader();
+            var result = await Task.Run(() =>
+            {
+                Thread.Sleep(1000);
+                try
+                {
+                    Log.Trace("User ask DB for own translits.");
+                    Translits = DBManager.GetTranslitsByUserId(StationManager.CurrentUser.Id);
+                    Log.Trace("DB answer successful for asking about current user translits.");
+                }
+                catch(Exception e)
+                {
+                    Log.Error("Error while get translit history: " + e.ToString());
+                    return false;
+                }
+                return true;
+            });
+            LoaderManager.Instance.HideLoader();
         }
 
-        private void LogOutExecute(object obj)
+        private async void LogOutExecute(object obj)
         {
-            Log.Trace("User want to log out.");
-            Log.Trace("Clear current user for auto login.");
-            StationManager.RemoveCurrentUser();
-            NavigationManager.Instance.Navigate(ModesEnum.SignIn);
-            Log.Trace("Now another user can Sign In.");
+            LoaderManager.Instance.ShowLoader();
+            var result = await Task.Run(() =>
+            {
+                Thread.Sleep(1000);
+                try
+                {
+                    Log.Trace("User want to log out.");
+                    Log.Trace("Clear current user for auto login.");
+                    StationManager.RemoveCurrentUser();                   
+                    Log.Trace("Now another user can Sign In.");
+                }
+                catch (Exception e)
+                {
+                    Log.Error("Error while user log out: " + e.ToString());
+                    return false;
+                }
+                return true;
+            });
+            LoaderManager.Instance.HideLoader();
+            if(result) NavigationManager.Instance.Navigate(ModesEnum.SignIn);
         }
 
         private void CloseExecute(object obj)

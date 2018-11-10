@@ -3,6 +3,8 @@ using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
+using System.Threading;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
@@ -99,8 +101,9 @@ namespace Transliteration.ViewModels
         {
         }
 
-        private void SignUpExecute(object obj)
+        private async void SignUpExecute(object obj)
         {
+            LoaderManager.Instance.ShowLoader();
             Log.Info("User try to Sign up.");
             var passwordContainer = obj as PasswordBox;
             if (passwordContainer != null)
@@ -114,44 +117,54 @@ namespace Transliteration.ViewModels
                 MessageBox.Show(EmptyPassword);
                 return;
             }
-            try
+
+            var result = await Task.Run(() =>
             {
-                if (!EmailIsValid(_email))
+                Thread.Sleep(1000);
+                try
                 {
-                    Log.Warn("User enter invalid email.");
-                    MessageBox.Show(String.Format(SignUp_EmailIsNotValid, _email));
-                    return;
+                    if (!EmailIsValid(_email))
+                    {
+                        Log.Warn("User enter invalid email.");
+                        MessageBox.Show(String.Format(SignUp_EmailIsNotValid, _email));
+                        return false;
+                    }
+                    if (DBManager.UserExists(_login))
+                    {
+                        Log.Warn("Such user already exist.");
+                        MessageBox.Show(String.Format(SignUp_UserAlreadyExists, _login));
+                        return false;
+                    }
                 }
-                if (DBManager.UserExists(_login))
+                catch (Exception ex)
                 {
-                    Log.Warn("Such user already exist.");
-                    MessageBox.Show(String.Format(SignUp_UserAlreadyExists, _login));
-                    return;
+                    Log.Error("Problem with validating data: " + ex.ToString());
+                    MessageBox.Show(String.Format(SignUp_FailedToValidateData, Environment.NewLine, ex.Message));
+                    return false;
                 }
-            }
-            catch (Exception ex)
+                try
+                {
+                    Log.Info("Try to add new user.");
+                    var user = new User(_firstName, _lastName, _email, _login, _password);
+                    DBManager.AddUser(user);
+                    StationManager.CurrentUser = user;
+                    StationManager.AddCurrentUser();
+                }
+                catch (Exception ex)
+                {
+                    Log.Error("Promlem with creating new user: " + ex.ToString());
+                    MessageBox.Show(String.Format(SignUp_FailedToCreateUser, Environment.NewLine,
+                        ex.Message));
+                    return false;
+                }
+                return true;
+            });
+            LoaderManager.Instance.HideLoader();
+            if (result)
             {
-                Log.Error("Problem with validating data: " + ex.ToString());
-                MessageBox.Show(String.Format(SignUp_FailedToValidateData, Environment.NewLine, ex.Message));
-                return;
-            }
-            try
-            {
-                Log.Info("Try to add new user.");
-                var user = new User(_firstName, _lastName, _email, _login, _password);                
-                DBManager.AddUser(user);                
-                StationManager.CurrentUser = user;
-                StationManager.AddCurrentUser();
-            }
-            catch (Exception ex)
-            {
-                Log.Error("Promlem with creating new user: " + ex.ToString());
-                MessageBox.Show(String.Format(SignUp_FailedToCreateUser, Environment.NewLine,
-                    ex.Message));
-                return;
-            }
-            MessageBox.Show(String.Format(SignUp_UserSuccessfulyCreated, _login));
-            NavigationManager.Instance.Navigate(ModesEnum.Translit);
+                MessageBox.Show(String.Format(SignUp_UserSuccessfulyCreated, _login));
+                NavigationManager.Instance.Navigate(ModesEnum.Translit);
+            }           
         }
 
         private bool EmailIsValid(string email)
