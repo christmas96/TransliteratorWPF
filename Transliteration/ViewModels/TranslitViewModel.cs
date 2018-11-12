@@ -10,7 +10,6 @@ using System.Collections.Generic;
 using NLog;
 using System;
 using System.Windows;
-using System.Threading;
 
 namespace Transliteration.ViewModels
 {
@@ -105,7 +104,6 @@ namespace Transliteration.ViewModels
             string translit = string.Empty;
             var result = await Task.Run(() =>
             {
-                Thread.Sleep(1000);
                 try
                 {
                     translit = TranslitDictionary.Front(text);
@@ -128,7 +126,6 @@ namespace Transliteration.ViewModels
             LoaderManager.Instance.ShowLoader();
             var result = await Task.Run(() =>
             {
-                Thread.Sleep(1000);
                 try
                 {
                     Log.Trace("User ask DB for own translits.");
@@ -150,7 +147,6 @@ namespace Transliteration.ViewModels
             LoaderManager.Instance.ShowLoader();
             var result = await Task.Run(() =>
             {
-                Thread.Sleep(1000);
                 try
                 {
                     Log.Trace("User want to log out.");

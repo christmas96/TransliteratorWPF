@@ -3,7 +3,6 @@ using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
-using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -102,8 +101,7 @@ namespace Transliteration.ViewModels
         }
 
         private async void SignUpExecute(object obj)
-        {
-            LoaderManager.Instance.ShowLoader();
+        {            
             Log.Info("User try to Sign up.");
             var passwordContainer = obj as PasswordBox;
             if (passwordContainer != null)
@@ -118,9 +116,9 @@ namespace Transliteration.ViewModels
                 return;
             }
 
+            LoaderManager.Instance.ShowLoader();
             var result = await Task.Run(() =>
             {
-                Thread.Sleep(1000);
                 try
                 {
                     if (!EmailIsValid(_email))

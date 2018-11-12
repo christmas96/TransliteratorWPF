@@ -1,25 +1,30 @@
-﻿using System.Linq;
-using System.Text;
+﻿
+using System;
 
 namespace Transliteration.Tools
 {
     internal static class Encrypting
     {
-        internal static string code;
 
         internal static string EncryptText(string text)
         {
-            var passBytes = Encoding.ASCII.GetBytes(text);
-            string code = passBytes.ToString();
-            return code;
+            string pass = HidePass(text);
+            return pass;
         }
 
         internal static bool CheckPass(string userPass, string enterPass)
         {
-            string tmp = EncryptText(enterPass);
-            bool flag = userPass.SequenceEqual(tmp);
+            bool flag = userPass == HidePass(enterPass);
             if (flag) return true;
             return false;
+        }
+
+        private static string HidePass(string password)
+        {
+            byte[] data = System.Text.Encoding.ASCII.GetBytes(password);
+            data = new System.Security.Cryptography.SHA256Managed().ComputeHash(data);
+            String hash = System.Text.Encoding.ASCII.GetString(data);
+            return hash;
         }
     }
 }

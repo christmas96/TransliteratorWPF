@@ -34,10 +34,17 @@ namespace Transliteration.Managers
 
         internal static void GetCurrentUser()
         {
-            IFormatter formatter2 = new BinaryFormatter();
-            Stream stream = new FileStream(USER_PATH, FileMode.Open, FileAccess.Read, FileShare.Read);
-            CurrentUser = (User)formatter2.Deserialize(stream);
-            stream.Close();
+            try
+            {
+                IFormatter formatter2 = new BinaryFormatter();
+                Stream stream = new FileStream(USER_PATH, FileMode.Open, FileAccess.Read, FileShare.Read);
+                CurrentUser = (User)formatter2.Deserialize(stream);
+                stream.Close();
+            }
+            catch(Exception e)
+            {
+
+            }
         }
 
         internal static void RemoveCurrentUser()

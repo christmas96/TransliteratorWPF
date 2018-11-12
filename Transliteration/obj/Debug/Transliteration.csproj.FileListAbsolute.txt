@@ -90,7 +90,7 @@ D:\C#\TransiterationGit\Transliteration\obj\Debug\Transliteration.csproj.CoreCom
 D:\C#\TransiterationGit\Transliteration\obj\Debug\Transliteration.csproj.CopyComplete
 D:\C#\TransiterationGit\Transliteration\obj\Debug\Transliteration.exe
 D:\C#\TransiterationGit\Transliteration\obj\Debug\Transliteration.pdb
-D:\C#\TransiterationGit\Transliteration\bin\Debug\TranslateDB.db
 D:\C#\TransiterationGit\Transliteration\obj\Debug\Transliteration.csprojAssemblyReference.cache
 D:\C#\TransiterationGit\Transliteration\bin\Debug\FontAwesome.WPF.dll
 D:\C#\TransiterationGit\Transliteration\bin\Debug\FontAwesome.WPF.xml
+D:\C#\TransiterationGit\Transliteration\bin\Debug\TranslateDB.db
