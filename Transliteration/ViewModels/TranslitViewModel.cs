@@ -4,16 +4,16 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using Transliteration.Managers;
 using Transliteration.Tools;
-using Transliteration.Models;
 using static Transliteration.Properties.Resources;
 using System.Collections.Generic;
 using NLog;
 using System;
 using System.Windows;
+using Transliteration.DBModels;
 
 namespace Transliteration.ViewModels
 {
-    internal class TranslitViewModels : INotifyPropertyChanged
+    public class TranslitViewModels : INotifyPropertyChanged
     {
         private ICommand _translitCommand;
         private ICommand _historyCommand;
@@ -80,7 +80,7 @@ namespace Transliteration.ViewModels
             }
         }
 
-        internal TranslitViewModels()
+        public TranslitViewModels()
         {
         }
 
@@ -92,9 +92,9 @@ namespace Transliteration.ViewModels
                 return;
             }
             TranslitText = await TranslitQuery(EnterText);
-            var Translit = new Translit(EnterText, TranslitText);
+            var Translit = new Translit(StationManager.CurrentUser, EnterText, TranslitText);
             DBManager.AddTranslit(Translit);
-            Translits = DBManager.GetTranslitsByUserId(StationManager.CurrentUser.Id);
+            Translits = DBManager.GetTranslitsByUserGuid(StationManager.CurrentUser.Guid);
             Log.Trace("User enter text was translited and write to translits history.");
         }
 
@@ -129,7 +129,7 @@ namespace Transliteration.ViewModels
                 try
                 {
                     Log.Trace("User ask DB for own translits.");
-                    Translits = DBManager.GetTranslitsByUserId(StationManager.CurrentUser.Id);
+                    Translits = DBManager.GetTranslitsByUserGuid(StationManager.CurrentUser.Guid);
                     Log.Trace("DB answer successful for asking about current user translits.");
                 }
                 catch(Exception e)
@@ -173,7 +173,7 @@ namespace Transliteration.ViewModels
 
         public event PropertyChangedEventHandler PropertyChanged;
         [NotifyPropertyChangedInvocator]
-        internal virtual void OnPropertyChanged([CallerMemberName]string propertyName = null)
+        public virtual void OnPropertyChanged([CallerMemberName]string propertyName = null)
         {
             Log.Trace("Change value of {0} property.", propertyName);
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));

@@ -4,18 +4,18 @@ using System.Collections.Generic;
 namespace Transliteration.Tools
 {
     //створено перелік типів стандартів на випадок додання інших стандартів транслітерації, наприклад ГОСТ
-    internal enum TransliterationType
+    public enum TransliterationType
     {
         ISO
     }
 
-    internal static class TranslitDictionary
+    public static class TranslitDictionary
     {
 
         private static Logger Log = LogManager.GetCurrentClassLogger();
         private static Dictionary<string, string> Iso = new Dictionary<string, string>();
 
-        internal static string Front(string text)
+        public static string Front(string text)
         {
             return Front(text, TransliterationType.ISO);
         }

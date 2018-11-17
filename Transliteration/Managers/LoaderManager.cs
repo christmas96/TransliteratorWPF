@@ -3,12 +3,12 @@ using Transliteration.Tools;
 
 namespace Transliteration.Managers
 {
-    internal class LoaderManager
+    public class LoaderManager
     {
         private static readonly object Lock = new object();
         private static LoaderManager _instance;
 
-        internal static LoaderManager Instance
+        public static LoaderManager Instance
         {
             get
             {
@@ -23,19 +23,19 @@ namespace Transliteration.Managers
 
         private ILoaderOwner _loaderOwner;
 
-        internal void Initialize(ILoaderOwner loaderOwner)
+        public void Initialize(ILoaderOwner loaderOwner)
         {
             _loaderOwner = loaderOwner;
         }
 
-        internal void ShowLoader()
+        public void ShowLoader()
         {
             _loaderOwner.LoaderVisibility = Visibility.Visible;
             _loaderOwner.IsEnabled = false;
 
         }
 
-        internal void HideLoader()
+        public void HideLoader()
         {
             _loaderOwner.LoaderVisibility = Visibility.Hidden;
             _loaderOwner.IsEnabled = true;

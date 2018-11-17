@@ -4,18 +4,19 @@ using System.Runtime.CompilerServices;
 using System.Windows;
 using System.Windows.Input;
 using Transliteration.Managers;
-using Transliteration.Models;
 using Transliteration.Tools;
 using static Transliteration.Properties.Resources;
 using System.Windows.Controls;
 using NLog;
 using System.Threading.Tasks;
+using Transliteration.DBModels;
+using Transliteration.DBAdapter;
 
 namespace Transliteration.ViewModels
 {
-    internal class SignInViewModel : INotifyPropertyChanged
+    public class SignInViewModel : INotifyPropertyChanged
     {
-        internal static Logger Log = LogManager.GetCurrentClassLogger();
+        public static Logger Log = LogManager.GetCurrentClassLogger();
 
         public string LoginText { get => "Login: "; }
         public string PasswordText { get => "Password: "; }
@@ -51,7 +52,7 @@ namespace Transliteration.ViewModels
         }
 
 
-        internal SignInViewModel()
+        public SignInViewModel()
         {
         }
 
@@ -119,6 +120,7 @@ namespace Transliteration.ViewModels
                              ex.Message));
                         return false;
                     }
+                    user.Translits = EntityWrapper.GetTranslitsByUserGuid(user.Guid);
                     StationManager.CurrentUser = user;
                     StationManager.AddCurrentUser();
                     return true;
@@ -145,7 +147,7 @@ namespace Transliteration.ViewModels
 
         public event PropertyChangedEventHandler PropertyChanged;
         [NotifyPropertyChangedInvocator]
-        internal virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        public virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }

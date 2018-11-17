@@ -1,0 +1,14 @@
+D:\TransliteratorWPF\Transliteration.Tools\bin\Debug\NLog.config
+D:\TransliteratorWPF\Transliteration.Tools\bin\Debug\Transliteration.Tools.dll
+D:\TransliteratorWPF\Transliteration.Tools\bin\Debug\Transliteration.Tools.pdb
+D:\TransliteratorWPF\Transliteration.Tools\bin\Debug\EntityFramework.dll
+D:\TransliteratorWPF\Transliteration.Tools\bin\Debug\EntityFramework.SqlServer.dll
+D:\TransliteratorWPF\Transliteration.Tools\bin\Debug\NLog.dll
+D:\TransliteratorWPF\Transliteration.Tools\bin\Debug\EntityFramework.xml
+D:\TransliteratorWPF\Transliteration.Tools\bin\Debug\EntityFramework.SqlServer.xml
+D:\TransliteratorWPF\Transliteration.Tools\bin\Debug\NLog.xml
+D:\TransliteratorWPF\Transliteration.Tools\obj\Debug\Transliteration.Tools.csproj.CoreCompileInputs.cache
+D:\TransliteratorWPF\Transliteration.Tools\obj\Debug\Transliteration.Tools.csproj.CopyComplete
+D:\TransliteratorWPF\Transliteration.Tools\obj\Debug\Transliteration.Tools.dll
+D:\TransliteratorWPF\Transliteration.Tools\obj\Debug\Transliteration.Tools.pdb
+D:\TransliteratorWPF\Transliteration.Tools\bin\Debug\Transliteration.Tools.dll.config

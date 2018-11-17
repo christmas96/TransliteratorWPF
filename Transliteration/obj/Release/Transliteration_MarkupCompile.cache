@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\C#\TransiterationGit\Transliteration\obj\Release\
+D:\TransliteratorWPF\Transliteration\obj\Release\
 Transliteration
 none
 false
 TRACE
-D:\C#\TransiterationGit\Transliteration\App.xaml
+D:\TransliteratorWPF\Transliteration\App.xaml
 4-143484577
 1-2138471434
-26-1779514270
-8323910842
+2272219300
+84-1801401070
 MainWindow.xaml;Views\SignInView.xaml;Views\SignUpView.xaml;Views\TranslitView.xaml;
 
 True

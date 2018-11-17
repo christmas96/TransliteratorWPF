@@ -1,5 +1,5 @@
-﻿using Transliteration.Managers;
-using System.Windows;
+﻿using System.Windows;
+using Transliteration.Tools;
 
 namespace Transliteration
 {

@@ -4,26 +4,26 @@ using Transliteration.Views;
 
 namespace  Transliteration.Tools
 {
-    internal enum ModesEnum
+    public enum ModesEnum
     {
         SignIn,
         SingUp,
         Translit
     }
 
-    internal class NavigationModel
+    public class NavigationModel
     {
         private IContentWindow _content;
         private SignInView _signInView;
         private SignUpView _signUpView;
         private TranslitView _mainView;
 
-        internal NavigationModel(IContentWindow Content)
+        public NavigationModel(IContentWindow Content)
         {
             _content = Content;
         }
 
-        internal void Navigate(ModesEnum mode)
+        public void Navigate(ModesEnum mode)
         {
             switch (mode)
             {

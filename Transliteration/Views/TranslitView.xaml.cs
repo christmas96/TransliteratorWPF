@@ -8,7 +8,7 @@ namespace Transliteration.Views
     /// </summary>
     public partial class TranslitView
     {
-        internal TranslitView()
+        public TranslitView()
         {
             InitializeComponent();
             var TranslitViewModel = new TranslitViewModels();

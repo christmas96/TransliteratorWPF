@@ -22,21 +22,21 @@ namespace Transliteration.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources() {
+        public Resources() {
         }
         
         /// <summary>
         ///   Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Transliteration.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace Transliteration.Properties {
         ///   обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -119,7 +119,7 @@ namespace Transliteration.Properties {
         /// <summary>
         ///   Ищет локализованную строку, похожую на Enter password!.
         /// </summary>
-        internal static string EmptyPassword {
+        public static string EmptyPassword {
             get {
                 return ResourceManager.GetString("EmptyPassword", resourceCulture);
             }
@@ -128,7 +128,7 @@ namespace Transliteration.Properties {
         /// <summary>
         ///   Ищет локализованную строку, похожую на Failed to get user.{0}Reason: {1}.
         /// </summary>
-        internal static string SignIn_FailedToGetUser {
+        public static string SignIn_FailedToGetUser {
             get {
                 return ResourceManager.GetString("SignIn_FailedToGetUser", resourceCulture);
             }
@@ -137,7 +137,7 @@ namespace Transliteration.Properties {
         /// <summary>
         ///   Ищет локализованную строку, похожую на Failed to validate password.{0}Reason: {1}.
         /// </summary>
-        internal static string SignIn_FailedToValidatePassword {
+        public static string SignIn_FailedToValidatePassword {
             get {
                 return ResourceManager.GetString("SignIn_FailedToValidatePassword", resourceCulture);
             }
@@ -146,7 +146,7 @@ namespace Transliteration.Properties {
         /// <summary>
         ///   Ищет локализованную строку, похожую на User with login {0} doesn&apos;t exist!.
         /// </summary>
-        internal static string SignIn_UserDoesntExist {
+        public static string SignIn_UserDoesntExist {
             get {
                 return ResourceManager.GetString("SignIn_UserDoesntExist", resourceCulture);
             }
@@ -155,7 +155,7 @@ namespace Transliteration.Properties {
         /// <summary>
         ///   Ищет локализованную строку, похожую на Wrong password!.
         /// </summary>
-        internal static string SignIn_WrongPassword {
+        public static string SignIn_WrongPassword {
             get {
                 return ResourceManager.GetString("SignIn_WrongPassword", resourceCulture);
             }
@@ -164,7 +164,7 @@ namespace Transliteration.Properties {
         /// <summary>
         ///   Ищет локализованную строку, похожую на Email address {0} is not valid!.
         /// </summary>
-        internal static string SignUp_EmailIsNotValid {
+        public static string SignUp_EmailIsNotValid {
             get {
                 return ResourceManager.GetString("SignUp_EmailIsNotValid", resourceCulture);
             }
@@ -173,7 +173,7 @@ namespace Transliteration.Properties {
         /// <summary>
         ///   Ищет локализованную строку, похожую на Failed to create user.{0}Reason: {1}.
         /// </summary>
-        internal static string SignUp_FailedToCreateUser {
+        public static string SignUp_FailedToCreateUser {
             get {
                 return ResourceManager.GetString("SignUp_FailedToCreateUser", resourceCulture);
             }
@@ -182,7 +182,7 @@ namespace Transliteration.Properties {
         /// <summary>
         ///   Ищет локализованную строку, похожую на Failed to validate data.{0}Reason: {1}.
         /// </summary>
-        internal static string SignUp_FailedToValidateData {
+        public static string SignUp_FailedToValidateData {
             get {
                 return ResourceManager.GetString("SignUp_FailedToValidateData", resourceCulture);
             }
@@ -191,7 +191,7 @@ namespace Transliteration.Properties {
         /// <summary>
         ///   Ищет локализованную строку, похожую на User with login {0} already exists!.
         /// </summary>
-        internal static string SignUp_UserAlreadyExists {
+        public static string SignUp_UserAlreadyExists {
             get {
                 return ResourceManager.GetString("SignUp_UserAlreadyExists", resourceCulture);
             }
@@ -200,7 +200,7 @@ namespace Transliteration.Properties {
         /// <summary>
         ///   Ищет локализованную строку, похожую на User with login {0} doesn&apos;t exist!.
         /// </summary>
-        internal static string SignUp_UserdoesntExist {
+        public static string SignUp_UserdoesntExist {
             get {
                 return ResourceManager.GetString("SignUp_UserdoesntExist", resourceCulture);
             }
@@ -209,7 +209,7 @@ namespace Transliteration.Properties {
         /// <summary>
         ///   Ищет локализованную строку, похожую на User {0} successfully created!.
         /// </summary>
-        internal static string SignUp_UserSuccessfulyCreated {
+        public static string SignUp_UserSuccessfulyCreated {
             get {
                 return ResourceManager.GetString("SignUp_UserSuccessfulyCreated", resourceCulture);
             }

@@ -8,16 +8,16 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using Transliteration.Managers;
-using Transliteration.Models;
+using Transliteration.DBModels;
 using Transliteration.Tools;
 using static Transliteration.Properties.Resources;
 
 namespace Transliteration.ViewModels
 {
-    internal class SignUpViewModel
+    public class SignUpViewModel
     {
 
-        internal static Logger Log = LogManager.GetCurrentClassLogger();
+        public static Logger Log = LogManager.GetCurrentClassLogger();
 
         private string _login;
         private string _password;
@@ -96,7 +96,7 @@ namespace Transliteration.ViewModels
             }
         }
 
-        internal SignUpViewModel()
+        public SignUpViewModel()
         {
         }
 
@@ -237,7 +237,7 @@ namespace Transliteration.ViewModels
 
         public event PropertyChangedEventHandler PropertyChanged;
         [NotifyPropertyChangedInvocator]
-        internal virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        public virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }

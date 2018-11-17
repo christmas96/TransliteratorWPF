@@ -1,7 +1,7 @@
 ﻿
 namespace Transliteration.Tools
 {
-    internal interface IHaveSignInPass
+    public interface IHaveSignInPass
     {
         System.Security.SecureString SignInPassword { get; }
     }
