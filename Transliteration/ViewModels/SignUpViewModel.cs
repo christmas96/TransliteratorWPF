@@ -143,7 +143,7 @@ namespace Transliteration.ViewModels
                 try
                 {
                     Log.Info("Try to add new user.");
-                    var user = new User(_firstName, _lastName, _email, _login, _password);
+                    User user = new User(_firstName, _lastName, _email, _login, _password);
                     DBManager.AddUser(user);
                     StationManager.CurrentUser = user;
                     StationManager.AddCurrentUser();

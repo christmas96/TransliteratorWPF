@@ -10,7 +10,6 @@ using System.Windows.Controls;
 using NLog;
 using System.Threading.Tasks;
 using Transliteration.DBModels;
-using Transliteration.DBAdapter;
 
 namespace Transliteration.ViewModels
 {
@@ -120,7 +119,7 @@ namespace Transliteration.ViewModels
                              ex.Message));
                         return false;
                     }
-                    user.Translits = EntityWrapper.GetTranslitsByUserGuid(user.Guid);
+                    user.Translits = DBManager.GetTranslitsByUserGuid(user.Guid);
                     StationManager.CurrentUser = user;
                     StationManager.AddCurrentUser();
                     return true;

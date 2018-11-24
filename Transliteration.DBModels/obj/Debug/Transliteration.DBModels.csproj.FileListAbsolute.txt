@@ -16,3 +16,4 @@ D:\TransliteratorWPF\Transliteration.DBModels\obj\Debug\Transliteration.DBModels
 D:\TransliteratorWPF\Transliteration.DBModels\obj\Debug\Transliteration.DBModels.dll
 D:\TransliteratorWPF\Transliteration.DBModels\obj\Debug\Transliteration.DBModels.pdb
 D:\TransliteratorWPF\Transliteration.DBModels\bin\Debug\Transliteration.Tools.dll.config
+D:\TransliteratorWPF\Transliteration.DBModels\bin\Debug\CommonServiceLocator.dll

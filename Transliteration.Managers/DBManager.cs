@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Transliteration.DBModels;
-using Transliteration.DBAdapter;
 using System;
+using WCF.Transliteration.ServiceInterface;
 
 namespace Transliteration.Managers
 {
@@ -9,27 +9,27 @@ namespace Transliteration.Managers
     {
         public static bool UserExists(string login)
         {
-            return EntityWrapper.UserExists(login);
+            return TranslitServiceWrapper.UserExists(login);
         }
 
         public static User GetUserByLogin(string login)
         {
-            return EntityWrapper.GetUserByLogin(login);
+            return TranslitServiceWrapper.GetUserByLogin(login);
         }
 
         public static void AddUser(User user)
         {
-            EntityWrapper.AddUser(user);
+            TranslitServiceWrapper.AddUser(user);
         }
 
         public static void AddTranslit(Translit translit)
         {
-            EntityWrapper.AddTranslit(translit);
+            TranslitServiceWrapper.AddTranslit(translit);
         }
 
         public static List<Translit> GetTranslitsByUserGuid(Guid UserGuid)
         {
-            return EntityWrapper.GetTranslitsByUserGuid(UserGuid);
+            return TranslitServiceWrapper.GetTranslitsByUserGuid(UserGuid);
         }
     }
 }

@@ -200,10 +200,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Transliteration.DBAdapter\Transliteration.DBAdapter.csproj">
-      <Project>{A07C0226-969D-4B57-A705-B4FD7C0EBF13}</Project>
-      <Name>Transliteration.DBAdapter</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Transliteration.DBModels\Transliteration.DBModels.csproj">
       <Project>{f422c778-ab4d-4945-ae9a-06e1b868a64d}</Project>
       <Name>Transliteration.DBModels</Name>
@@ -213,7 +209,7 @@
       <Name>Transliteration.Managers</Name>
     </ProjectReference>
     <ProjectReference Include="..\Transliteration.Tools\Transliteration.Tools.csproj">
-      <Project>{D8046253-982C-4DC9-B6EB-5201DA6C5A69}</Project>
+      <Project>{d8046253-982c-4dc9-b6eb-5201da6c5a69}</Project>
       <Name>Transliteration.Tools</Name>
     </ProjectReference>
   </ItemGroup>

@@ -1,0 +1,97 @@
+﻿Выполняется установка сборки 'D:\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.InstallLog
+   assemblypath = D:\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.exe
+Устанавливается служба TranslitService...
+Служба TranslitService успешно установлена.
+Создается исходный EventLog TranslitService в журнале Application...
+Выполняется фиксация сборки 'D:\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.InstallLog
+   assemblypath = D:\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.exe
+Выполняется удаление сборки 'D:\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.InstallLog
+   assemblypath = D:\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.exe
+Выполняется удаление источника EventLog TranslitService.
+Выполняется удаление службы TranslitService из системы...
+Служба TranslitService успешно удалена из системы.
+Выполняется установка сборки 'D:\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.InstallLog
+   assemblypath = D:\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.exe
+Устанавливается служба TranslitService...
+Служба TranslitService успешно установлена.
+Создается исходный EventLog TranslitService в журнале Application...
+Выполняется фиксация сборки 'D:\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.InstallLog
+   assemblypath = D:\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.exe
+Выполняется удаление сборки 'D:\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.InstallLog
+   assemblypath = D:\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.exe
+Выполняется удаление источника EventLog TranslitService.
+Выполняется удаление службы TranslitService из системы...
+Служба TranslitService успешно удалена из системы.
+Выполняется установка сборки 'E:\homework\Transliterator\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = E:\homework\Transliterator\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.InstallLog
+   assemblypath = E:\homework\Transliterator\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.exe
+Устанавливается служба TranslitService...
+Служба TranslitService успешно установлена.
+Создается исходный EventLog TranslitService в журнале Application...
+Выполняется фиксация сборки 'E:\homework\Transliterator\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = E:\homework\Transliterator\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.InstallLog
+   assemblypath = E:\homework\Transliterator\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.exe
+Выполняется удаление сборки 'E:\homework\Transliterator\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = E:\homework\Transliterator\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.InstallLog
+   assemblypath = E:\homework\Transliterator\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.exe
+Выполняется удаление источника EventLog TranslitService.
+Выполняется удаление службы TranslitService из системы...
+Служба TranslitService успешно удалена из системы.
+Выполняется установка сборки 'E:\homework\Transliterator\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = E:\homework\Transliterator\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.InstallLog
+   assemblypath = E:\homework\Transliterator\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.exe
+Устанавливается служба TranslitService...
+Служба TranslitService успешно установлена.
+Создается исходный EventLog TranslitService в журнале Application...
+Выполняется фиксация сборки 'E:\homework\Transliterator\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = E:\homework\Transliterator\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.InstallLog
+   assemblypath = E:\homework\Transliterator\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.exe
+Выполняется удаление сборки 'E:\homework\Transliterator\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = E:\homework\Transliterator\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.InstallLog
+   assemblypath = E:\homework\Transliterator\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.exe
+Выполняется удаление источника EventLog TranslitService.
+Выполняется удаление службы TranslitService из системы...
+Служба TranslitService успешно удалена из системы.
+Выполняется установка сборки 'E:\homework\Transliterator\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = E:\homework\Transliterator\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.InstallLog
+   assemblypath = E:\homework\Transliterator\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.exe
+Устанавливается служба TranslitService...
+Служба TranslitService успешно установлена.
+Создается исходный EventLog TranslitService в журнале Application...
+Выполняется фиксация сборки 'E:\homework\Transliterator\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = E:\homework\Transliterator\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.InstallLog
+   assemblypath = E:\homework\Transliterator\TransliteratorWPF\Transliteration.TranslitService\bin\Debug\Transliteration.TranslitService.exe
