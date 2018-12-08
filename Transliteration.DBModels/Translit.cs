@@ -1,71 +1,61 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.Data.Entity.ModelConfiguration;
+using System.Runtime.Serialization;
 
 namespace Transliteration.DBModels
 {
+    [DataContract(IsReference = true)]
     public class Translit
     {
+        [DataMember]
         private Guid _userId;
+        [DataMember]
         private Guid _guid;
+        [DataMember]
         private string _enterText;
+        [DataMember]
         private string _translateText;
+        [DataMember]
         private DateTime _date;
+        [DataMember]
         private User _user;
 
         [Key]
         public Guid Guid
         {
             get => _guid;
-            set
-            {
-                _guid = value;
-            }
+            private set { _guid = value; }
         }
 
         public Guid UserGuid
         {
             get => _userId;
-            set
-            {
-                _userId = value;
-            }
+            private set { _userId = value; }
         }
 
         public string EnterText
         {
             get => _enterText;
-            set
-            {
-                _enterText = value;
-            }
+            set { _enterText = value; }
         }
 
         public string TranslateText
         {
             get => _translateText;
-            set
-            {
-                _translateText = value;
-            }
+            set { _translateText = value; }
         }
 
         public DateTime Date
         {
             get => _date;
-            set
-            {
-                _date = value;
-            }
+            set { _date = value; }
         }
 
         public User User
         {
             get => _user; 
-            private set
-            {
-                _user = value;
-            }
+            set { _user = value; }
         }
 
         public Translit() { }
@@ -77,6 +67,7 @@ namespace Transliteration.DBModels
             _enterText = EnteredText;
             _translateText = TranslitedText;
             _date = DateTime.Now;
+            _user = user;
             user.Translits.Add(this);
         }
 

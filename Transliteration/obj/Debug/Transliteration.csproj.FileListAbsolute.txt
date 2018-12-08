@@ -120,7 +120,6 @@ D:\TransliteratorWPF\Transliteration\bin\Debug\System.Windows.Interactivity.dll
 D:\TransliteratorWPF\Transliteration\bin\Debug\Transliteration.DBModels.dll
 D:\TransliteratorWPF\Transliteration\bin\Debug\Transliteration.Managers.dll
 D:\TransliteratorWPF\Transliteration\bin\Debug\Transliteration.Tools.dll
-D:\TransliteratorWPF\Transliteration\bin\Debug\Transliteration.DBAdapter.dll
 D:\TransliteratorWPF\Transliteration\bin\Debug\Transliteration.DBModels.pdb
 D:\TransliteratorWPF\Transliteration\bin\Debug\Transliteration.DBModels.dll.config
 D:\TransliteratorWPF\Transliteration\bin\Debug\Transliteration.Managers.pdb
@@ -135,8 +134,6 @@ D:\TransliteratorWPF\Transliteration\bin\Debug\GalaSoft.MvvmLight.Extras.xml
 D:\TransliteratorWPF\Transliteration\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
 D:\TransliteratorWPF\Transliteration\bin\Debug\GalaSoft.MvvmLight.Platform.xml
 D:\TransliteratorWPF\Transliteration\bin\Debug\NLog.xml
-D:\TransliteratorWPF\Transliteration\bin\Debug\Transliteration.DBAdapter.pdb
-D:\TransliteratorWPF\Transliteration\bin\Debug\Transliteration.DBAdapter.dll.config
 D:\TransliteratorWPF\Transliteration\obj\Debug\Transliteration.csprojAssemblyReference.cache
 D:\TransliteratorWPF\Transliteration\obj\Debug\Views\SignInView.baml
 D:\TransliteratorWPF\Transliteration\obj\Debug\Views\SignUpView.baml
@@ -149,4 +146,5 @@ D:\TransliteratorWPF\Transliteration\obj\Debug\Transliteration.exe
 D:\TransliteratorWPF\Transliteration\obj\Debug\Transliteration.pdb
 D:\TransliteratorWPF\Transliteration\bin\Debug\Transliteration.Managers.dll.config
 D:\TransliteratorWPF\Transliteration\bin\Debug\Transliteration.Tools.dll.config
-D:\TransliteratorWPF\Transliteration\obj\Debug\Transliteration.exe.config
+D:\TransliteratorWPF\Transliteration\bin\Debug\Transliteration.ServiceInterface.dll
+D:\TransliteratorWPF\Transliteration\bin\Debug\Transliteration.ServiceInterface.pdb

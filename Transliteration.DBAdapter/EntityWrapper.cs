@@ -7,21 +7,12 @@ namespace Transliteration.DBAdapter
 {
     public static class EntityWrapper
     {
-        private static List<Translit> _translitsHistory;
-        private static List<Translit> _translits;
 
-        public static List<Translit> GetTranslitsByUserGuid(Guid UserGuid)
+        public static List<Translit> GetTranslitsByUserGuid(Guid userGuid)
         {
-            _translitsHistory = new List<Translit>();
-            _translits = new List<Translit>();
             using (var context = new TransliterationDBContext())
             {
-                _translits = context.Translits.ToList();
-                foreach (Translit t in _translits)
-                {
-                    if (t.UserGuid == UserGuid) _translitsHistory.Add(t);
-                }
-                return _translitsHistory;
+                return context.Translits.Where(x => x.UserGuid == userGuid).ToList();
             }
         }
 
@@ -29,6 +20,7 @@ namespace Transliteration.DBAdapter
         {
             using(var context = new TransliterationDBContext())
             {
+                translit.DeleteDatabaseValues();
                 context.Translits.Add(translit);
                 context.SaveChanges();
             }

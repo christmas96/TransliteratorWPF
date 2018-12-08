@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Windows.Controls;
 using Transliteration.Views;
 
 namespace  Transliteration.Tools

@@ -8,7 +8,6 @@ namespace Transliteration
 {
     public partial class MainWindow : IContentWindow
     {
-        private DBManager _manager;
         public static Logger log = LogManager.GetCurrentClassLogger();
 
         public MainWindow()
@@ -18,7 +17,6 @@ namespace Transliteration
             NavigationManager.Instance.Initialize(navigationModel);
             MainWindowViewModel mainWindowViewModel = new MainWindowViewModel();
             DataContext = mainWindowViewModel;
-            _manager = new DBManager();
             if (StationManager.CheckCurrentUser())
             {
                 StationManager.GetCurrentUser();

@@ -22,3 +22,6 @@ D:\TransliteratorWPF\Transliteration.Managers\obj\Debug\Transliteration.Managers
 D:\TransliteratorWPF\Transliteration.Managers\obj\Debug\Transliteration.Managers.pdb
 D:\TransliteratorWPF\Transliteration.Managers\bin\Debug\Transliteration.Managers.dll.config
 D:\TransliteratorWPF\Transliteration.Managers\bin\Debug\Transliteration.Tools.dll.config
+D:\TransliteratorWPF\Transliteration.Managers\bin\Debug\Transliteration.ServiceInterface.dll
+D:\TransliteratorWPF\Transliteration.Managers\bin\Debug\Transliteration.ServiceInterface.pdb
+D:\TransliteratorWPF\Transliteration.Managers\bin\Debug\CommonServiceLocator.dll

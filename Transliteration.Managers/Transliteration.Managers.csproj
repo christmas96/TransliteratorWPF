@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CommonServiceLocator, Version=2.0.4.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\CommonServiceLocator.2.0.4\lib\net46\CommonServiceLocator.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -80,6 +83,10 @@
     <ProjectReference Include="..\Transliteration.DBModels\Transliteration.DBModels.csproj">
       <Project>{F422C778-AB4D-4945-AE9A-06E1B868A64D}</Project>
       <Name>Transliteration.DBModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Transliteration.ServiceInterface\Transliteration.ServiceInterface.csproj">
+      <Project>{232B93F8-0B87-4651-B972-AEF21452C75E}</Project>
+      <Name>Transliteration.ServiceInterface</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

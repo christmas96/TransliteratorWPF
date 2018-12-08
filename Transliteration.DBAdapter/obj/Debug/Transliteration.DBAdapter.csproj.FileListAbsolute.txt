@@ -21,3 +21,5 @@ D:\TransliteratorWPF\Transliteration.DBAdapter\obj\Debug\Transliteration.DBAdapt
 D:\TransliteratorWPF\Transliteration.DBAdapter\bin\Debug\Transliteration.Tools.dll.config
 D:\TransliteratorWPF\Transliteration.DBAdapter\obj\Debug\Transliteration.DBAdapter.Migrations.InitialMigration.resources
 D:\TransliteratorWPF\Transliteration.DBAdapter\obj\Debug\Transliteration.DBAdapter.csproj.GenerateResource.cache
+D:\TransliteratorWPF\Transliteration.DBAdapter\bin\Debug\CommonServiceLocator.dll
+D:\TransliteratorWPF\Transliteration.DBAdapter\obj\Debug\Transliteration.DBAdapter.Migrations.InitialMigration1.resources

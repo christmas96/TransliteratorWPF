@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CommonServiceLocator, Version=2.0.4.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\CommonServiceLocator.2.0.4\lib\net46\CommonServiceLocator.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -62,6 +65,10 @@
     <Compile Include="Migrations\201811171859562_InitialMigration.Designer.cs">
       <DependentUpon>201811171859562_InitialMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811241415220_InitialMigration1.cs" />
+    <Compile Include="Migrations\201811241415220_InitialMigration1.Designer.cs">
+      <DependentUpon>201811241415220_InitialMigration1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TransliterationDBContext.cs" />
@@ -69,6 +76,7 @@
   <ItemGroup>
     <Content Include="NLog.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <None Include="App.config">
       <SubType>Designer</SubType>
@@ -87,6 +95,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201811171859562_InitialMigration.resx">
       <DependentUpon>201811171859562_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811241415220_InitialMigration1.resx">
+      <DependentUpon>201811241415220_InitialMigration1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

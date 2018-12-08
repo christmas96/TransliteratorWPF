@@ -12,3 +12,5 @@ D:\TransliteratorWPF\Transliteration.Tools\obj\Debug\Transliteration.Tools.cspro
 D:\TransliteratorWPF\Transliteration.Tools\obj\Debug\Transliteration.Tools.dll
 D:\TransliteratorWPF\Transliteration.Tools\obj\Debug\Transliteration.Tools.pdb
 D:\TransliteratorWPF\Transliteration.Tools\bin\Debug\Transliteration.Tools.dll.config
+D:\TransliteratorWPF\Transliteration.Tools\bin\Debug\CommonServiceLocator.dll
+D:\TransliteratorWPF\Transliteration.Tools\obj\Debug\Transliteration.Tools.csprojAssemblyReference.cache

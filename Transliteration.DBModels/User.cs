@@ -2,64 +2,74 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Data.Entity.ModelConfiguration;
+using System.Runtime.Serialization;
 using Transliteration.Tools;
 
 namespace Transliteration.DBModels
 {
     [Serializable]
+    [DataContract(IsReference = true)]
     public class User
     {
+        [DataMember]
         private Guid _guid;
+        [DataMember]
         private string _firstName;
+        [DataMember]
         private string _lastName;
+        [DataMember]
         private string _email;
+        [DataMember]
         private string _login;
+        [DataMember]
         private string _password;
+        [DataMember]
         private DateTime _lastLoginDate;
         [NonSerialized]
+        [DataMember]
         private List<Translit> _translits;
 
         [Key]
         public Guid Guid
         {
             get { return _guid; }
-            set { _guid = value; }
+            private set { _guid = value; }
         }
 
         public string FirstName
         {
             get { return _firstName; }
-            set { _firstName = value; }
+            private set { _firstName = value; }
         }
 
         public string LastName
         {
             get { return _lastName; }
-            set { _lastName = value; }
+            private set { _lastName = value; }
         }
 
         public string Email
         {
             get { return _email; }
-            set { _email = value; }
+            private set { _email = value; }
         }
 
         public string Login
         {
             get { return _login; }
-            set { _login = value; }
+            private set { _login = value; }
         }
 
         public string Password
         {
             get { return _password; }
-            set { _password = value; }
+            private set { _password = value; }
         }
 
         public DateTime LastLoginDate
         {
             get { return _lastLoginDate; }
-            set { _lastLoginDate = value; }
+            private set { _lastLoginDate = value; }
         }
                 
        public List<Translit> Translits
